@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "starved_thermal|140150000|99850000|f08e7c84-3e1c-470d-a569-9e59375dd254|6a449567-7524-4f95-adab-81a72823a937|F.Cu",
+        "starved_thermal|184740000|101520000|f08e7c84-3e1c-470d-a569-9e59375dd254|eb4689a7-2660-4efe-b70e-9a01f4b7eaf9|F.Cu",
+        "starved_thermal|186235000|99785500|f08e7c84-3e1c-470d-a569-9e59375dd254|e0e8c22d-9cf8-4a8b-b4c9-6fcf0290a6ae|F.Cu",
+        "starved_thermal|193300000|99120000|f08e7c84-3e1c-470d-a569-9e59375dd254|1158f641-0073-494b-975c-6e11ed552f40|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -182,6 +187,7 @@
         0.15,
         0.2,
         0.254,
+        0.3,
         0.4
       ],
       "tuning_pattern_settings": {
@@ -469,6 +475,23 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.3,
+        "line_style": 0,
+        "microvia_diameter": 0.6,
+        "microvia_drill": 0.3,
+        "name": "Zdiff100",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.152,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -476,7 +499,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Zdiff100",
+        "pattern": "*CSI*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
