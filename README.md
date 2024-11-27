@@ -5,7 +5,7 @@ Copyright (c) 2024 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This project contains open hardware design files for the Dual camera to GMSL serializer CSI adapter.
+This project contains open hardware design files for the Dual Camera to GMSL Serializer CSI Adapter.
 
 The design files were prepared in KiCad 8.
 
