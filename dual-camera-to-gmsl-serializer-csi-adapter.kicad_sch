@@ -3149,7 +3149,7 @@
 				)
 			)
 		)
-		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R"
+		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3163,7 +3163,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R"
+			(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
 				(at 22.86 -5.08 0)
 				(effects
 					(font
@@ -3171,9 +3171,10 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R"
+			(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R"
 				(at 22.86 -7.62 0)
 				(effects
 					(font
@@ -3184,7 +3185,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774030151.pdf"
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf"
 				(at 22.86 -10.16 0)
 				(effects
 					(font
@@ -3195,7 +3196,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Spacer, SMT,  Steel, Swage Round, 5.1mmx3mm, M3 Thread, WA-SMSI Series"
+			(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3215,7 +3216,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "9774030151R"
+			(property "MPN" "9774060151R"
 				(at 22.86 -15.24 0)
 				(effects
 					(font
@@ -3223,7 +3224,6 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Author" "Antmicro"
@@ -3248,7 +3248,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SPACER"
+			(property "ki_keywords" "MECHANICAL, SPACER"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3257,7 +3257,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Spacer_Drill3.7mm_H3mm_9774030151R_1_1"
+			(symbol "Spacer_Drill3.7mm_H6mm_9774060151R_1_1"
 				(rectangle
 					(start 2.54 -2.54)
 					(end 7.62 2.54)
@@ -5500,12 +5500,6 @@
 		)
 	)
 	(junction
-		(at 156.21 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "001b9c1c-2ce1-4ece-9e43-d3f6312e2fe7")
-	)
-	(junction
 		(at 298.45 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5528,6 +5522,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "071d365b-9f0e-44cd-8c97-a8c9ab192bc4")
+	)
+	(junction
+		(at 24.13 273.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0886ba2a-e148-4402-88a8-ec9ed20a94ea")
 	)
 	(junction
 		(at 361.95 157.48)
@@ -5554,7 +5554,7 @@
 		(uuid "19750c40-0900-4a1b-ab5b-414b318b6acd")
 	)
 	(junction
-		(at 355.6 228.6)
+		(at 361.95 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b85db75-937f-4015-9a24-be47cac82ad9")
@@ -5602,7 +5602,7 @@
 		(uuid "33f7ffd3-1626-41bd-a1f7-5ad706550726")
 	)
 	(junction
-		(at 355.6 222.25)
+		(at 361.95 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36831b30-18a1-4192-8169-a68245273eee")
@@ -5612,6 +5612,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36850dea-69f5-4b0c-9b56-72ed43a99155")
+	)
+	(junction
+		(at 82.55 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3776be5f-cd6d-4f4c-ad5d-bf9048511016")
 	)
 	(junction
 		(at 365.76 68.58)
@@ -5624,12 +5630,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fe24880-0e12-4e3a-a7e3-f258283f2712")
-	)
-	(junction
-		(at 156.21 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40499de9-29c8-462d-93e8-64847c3baaf2")
 	)
 	(junction
 		(at 152.4 125.73)
@@ -5686,6 +5686,12 @@
 		(uuid "5120ecfb-8240-4a6a-be00-11bb968094d1")
 	)
 	(junction
+		(at 273.05 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "576003c1-0728-427e-becc-ea36dc8e6359")
+	)
+	(junction
 		(at 59.69 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5716,7 +5722,7 @@
 		(uuid "64c5c020-2614-4537-b032-b7dff9736ba1")
 	)
 	(junction
-		(at 304.8 222.25)
+		(at 326.39 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "667e12d9-233e-42da-bbd4-2ee6abc3e9e2")
@@ -5740,7 +5746,7 @@
 		(uuid "6d7a99c3-d2ed-4012-bb26-0d044c4089aa")
 	)
 	(junction
-		(at 304.8 234.95)
+		(at 326.39 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e9503ff-6aae-4cde-b9b6-d99c92185222")
@@ -5818,7 +5824,13 @@
 		(uuid "9464a86a-acdf-4da5-8e4d-5d75a1d369ea")
 	)
 	(junction
-		(at 304.8 228.6)
+		(at 83.82 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95cd3278-11aa-4fff-8b57-c9b30b3ac29a")
+	)
+	(junction
+		(at 326.39 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99de5b03-8b7f-4278-bb33-792dc20df7f1")
@@ -5830,7 +5842,7 @@
 		(uuid "9a9e2b68-3b30-482f-99f3-6160f5b8632b")
 	)
 	(junction
-		(at 355.6 234.95)
+		(at 361.95 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9aebd706-621c-47af-9c69-a86a28e490a2")
@@ -5840,6 +5852,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cefe943-1ae1-473d-a3da-1e246f34f746")
+	)
+	(junction
+		(at 24.13 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9db666f4-57f9-42b9-bdea-c697827bb9ff")
 	)
 	(junction
 		(at 361.95 165.1)
@@ -5914,6 +5932,12 @@
 		(uuid "b8751919-6175-4763-9408-8659dd6f4bf6")
 	)
 	(junction
+		(at 340.36 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b953ae92-274e-4cef-8b40-ad27517ae328")
+	)
+	(junction
 		(at 243.84 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5926,10 +5950,28 @@
 		(uuid "bf142ea9-3c32-4615-a4c8-05838892f7c9")
 	)
 	(junction
+		(at 74.93 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf5a621f-35ce-4828-8145-9d08bc023c36")
+	)
+	(junction
+		(at 24.13 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0b71b05-8410-45a9-b4e7-c775afc94aac")
+	)
+	(junction
 		(at 298.45 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1c2ac51-2b76-4b4c-bc16-5c84c815f3f4")
+	)
+	(junction
+		(at 24.13 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1d363df-8d08-4d40-a921-47841181344d")
 	)
 	(junction
 		(at 208.28 93.98)
@@ -6671,6 +6713,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 256.54) (xy 24.13 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011832df-ffeb-4da1-83e6-9e21b726e955")
+	)
+	(wire
+		(pts
 			(xy 304.8 107.95) (xy 284.48 107.95)
 		)
 		(stroke
@@ -6721,6 +6773,26 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 134.62) (xy 340.36 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047a9a23-b37f-4c43-988f-1c157f41a9e5")
+	)
+	(wire
+		(pts
+			(xy 74.93 229.87) (xy 83.82 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a88867-59c9-45dc-af91-359e4a0c842c")
+	)
+	(wire
+		(pts
 			(xy 264.16 251.46) (xy 264.16 252.73)
 		)
 		(stroke
@@ -6761,13 +6833,23 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 130.81) (xy 166.37 130.81)
+			(xy 83.82 229.87) (xy 83.82 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06a4b9e2-a100-42de-9693-04147ca4f852")
+		(uuid "061d2d14-0aa5-48f9-b28f-9a886103dff0")
+	)
+	(wire
+		(pts
+			(xy 15.24 215.9) (xy 24.13 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06fd4f07-4b4e-455b-a476-fa87e1766134")
 	)
 	(bus
 		(pts
@@ -6781,7 +6863,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 228.6) (xy 304.8 234.95)
+			(xy 326.39 228.6) (xy 326.39 234.95)
 		)
 		(stroke
 			(width 0)
@@ -6798,16 +6880,6 @@
 			(type default)
 		)
 		(uuid "087a00bb-a850-4588-93df-ee4b00911303")
-	)
-	(wire
-		(pts
-			(xy 372.11 119.38) (xy 347.98 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08d3b080-bd49-49e7-9749-148838fa1c4c")
 	)
 	(wire
 		(pts
@@ -6831,7 +6903,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 215.9) (xy 306.07 215.9)
+			(xy 326.39 215.9) (xy 327.66 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6971,6 +7043,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 223.52) (xy 83.82 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e42674-7f51-47ea-bda2-8c345f073a75")
+	)
+	(wire
+		(pts
 			(xy 372.11 170.18) (xy 365.76 170.18)
 		)
 		(stroke
@@ -7081,6 +7163,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 128.27) (xy 340.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b9d98f-8466-4254-b971-07c0be132c55")
+	)
+	(wire
+		(pts
 			(xy 372.11 137.16) (xy 347.98 137.16)
 		)
 		(stroke
@@ -7091,13 +7183,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 138.43) (xy 156.21 137.16)
+			(xy 15.24 273.05) (xy 24.13 273.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "185e1528-a624-4012-ad2b-d9bd946423dd")
+		(uuid "1815f24f-4a55-4892-a5b5-c8a00fce4d73")
 	)
 	(wire
 		(pts
@@ -7151,13 +7243,43 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 215.9) (xy 355.6 222.25)
+			(xy 15.24 240.03) (xy 15.24 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf8f9ee-05ee-4504-9010-52a805b2c755")
+	)
+	(wire
+		(pts
+			(xy 361.95 215.9) (xy 361.95 222.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c1ea785-1f9f-4471-909d-155b1982a3de")
+	)
+	(wire
+		(pts
+			(xy 24.13 273.05) (xy 24.13 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6ea4d4-8b7c-40a0-954c-50e5cc8ee765")
+	)
+	(wire
+		(pts
+			(xy 273.05 133.35) (xy 273.05 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdf1a6f-6069-46f9-b353-82c5981b2cb1")
 	)
 	(wire
 		(pts
@@ -7251,6 +7373,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 256.54) (xy 24.13 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2017e373-0215-47bd-ba2e-3cfb6a7a409b")
+	)
+	(wire
+		(pts
 			(xy 372.11 91.44) (xy 351.79 91.44)
 		)
 		(stroke
@@ -7301,6 +7433,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 125.73) (xy 340.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22edc377-1844-41ab-b83f-3068400175bf")
+	)
+	(wire
+		(pts
 			(xy 365.76 106.68) (xy 365.76 114.3)
 		)
 		(stroke
@@ -7328,6 +7470,16 @@
 			(type default)
 		)
 		(uuid "244b0e7c-3589-4cb5-ab24-3b87a2f2b97a")
+	)
+	(wire
+		(pts
+			(xy 15.24 240.03) (xy 24.13 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253b5d18-394d-4b77-a984-a879def98b8b")
 	)
 	(wire
 		(pts
@@ -7441,7 +7593,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 228.6) (xy 355.6 228.6)
+			(xy 363.22 228.6) (xy 361.95 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7511,6 +7663,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 266.7) (xy 15.24 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3f9d61-2a41-4777-9143-3872ab982a83")
+	)
+	(wire
+		(pts
 			(xy 111.76 243.84) (xy 111.76 245.11)
 		)
 		(stroke
@@ -7518,6 +7680,16 @@
 			(type default)
 		)
 		(uuid "2d439726-30a8-4eb3-87a3-e6e1dad1e36a")
+	)
+	(wire
+		(pts
+			(xy 24.13 248.92) (xy 24.13 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dddf583-7a29-425f-9f86-90d610de5126")
 	)
 	(bus
 		(pts
@@ -7529,6 +7701,26 @@
 		)
 		(uuid "2e23f926-1c4c-4cb0-9a04-51887db26063")
 	)
+	(wire
+		(pts
+			(xy 15.24 256.54) (xy 15.24 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2daf10-44e2-41d6-a293-6403cd5c3a0e")
+	)
+	(wire
+		(pts
+			(xy 24.13 224.79) (xy 24.13 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e661552-b21d-4acf-b435-dc10ac59345e")
+	)
 	(polyline
 		(pts
 			(xy 181.61 12.7) (xy 181.61 191.77)
@@ -7538,6 +7730,16 @@
 			(type dash)
 		)
 		(uuid "2ea9376d-d9d2-4d43-b3b2-2412f233a069")
+	)
+	(wire
+		(pts
+			(xy 24.13 223.52) (xy 24.13 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4ba75f-5f0f-45bd-ae82-664f3803f7e7")
 	)
 	(wire
 		(pts
@@ -7631,7 +7833,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 234.95) (xy 355.6 237.49)
+			(xy 361.95 234.95) (xy 361.95 237.49)
 		)
 		(stroke
 			(width 0)
@@ -7688,6 +7890,16 @@
 			(type default)
 		)
 		(uuid "34ff7589-83c8-43d6-a192-ae5933f90200")
+	)
+	(wire
+		(pts
+			(xy 340.36 119.38) (xy 372.11 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e15deb-a6e5-4a2d-ba10-c2c14a6e009c")
 	)
 	(wire
 		(pts
@@ -7801,7 +8013,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 222.25) (xy 355.6 222.25)
+			(xy 363.22 222.25) (xy 361.95 222.25)
 		)
 		(stroke
 			(width 0)
@@ -7841,13 +8053,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 97.79) (xy 156.21 96.52)
+			(xy 15.24 248.92) (xy 24.13 248.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e8d7184-17b5-441b-910d-fbe611c733e1")
+		(uuid "3c2e801c-d1c5-4a72-893f-a5ff4c7aae85")
 	)
 	(wire
 		(pts
@@ -7878,16 +8090,6 @@
 			(type default)
 		)
 		(uuid "3ee5a44f-b29a-4277-a86a-ba0dacc68594")
-	)
-	(wire
-		(pts
-			(xy 156.21 130.81) (xy 156.21 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f59a5d4-4746-4585-a553-7d26fcfe7b3c")
 	)
 	(wire
 		(pts
@@ -8011,7 +8213,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 234.95) (xy 304.8 234.95)
+			(xy 327.66 234.95) (xy 326.39 234.95)
 		)
 		(stroke
 			(width 0)
@@ -8191,6 +8393,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 273.05) (xy 15.24 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e712600-eb18-483b-9d49-b917639615f3")
+	)
+	(wire
+		(pts
 			(xy 264.16 212.09) (xy 264.16 214.63)
 		)
 		(stroke
@@ -8208,6 +8420,26 @@
 			(type default)
 		)
 		(uuid "4fcabefb-9bad-4334-bf79-5a7e6480cae4")
+	)
+	(wire
+		(pts
+			(xy 15.24 217.17) (xy 15.24 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd5eb9c-12a4-43da-a169-a8497ccc3ad6")
+	)
+	(wire
+		(pts
+			(xy 74.93 222.25) (xy 74.93 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "504bac5e-7991-43af-a12f-23818f2a74b1")
 	)
 	(wire
 		(pts
@@ -8281,6 +8513,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 215.9) (xy 24.13 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "562c2a32-c271-43f7-ae03-2f18df9a3b97")
+	)
+	(wire
+		(pts
 			(xy 228.6 73.66) (xy 228.6 83.82)
 		)
 		(stroke
@@ -8311,7 +8553,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 234.95) (xy 355.6 234.95)
+			(xy 363.22 234.95) (xy 361.95 234.95)
 		)
 		(stroke
 			(width 0)
@@ -8408,6 +8650,16 @@
 			(type default)
 		)
 		(uuid "5f553680-e112-40f5-8da3-a1ed18bb2ee6")
+	)
+	(wire
+		(pts
+			(xy 15.24 265.43) (xy 24.13 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb42a93-43ea-42a6-8388-b74f88f403f4")
 	)
 	(wire
 		(pts
@@ -8561,6 +8813,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 257.81) (xy 24.13 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6953fdb8-d722-4521-90e6-f776545503ed")
+	)
+	(wire
+		(pts
 			(xy 228.6 104.14) (xy 245.11 104.14)
 		)
 		(stroke
@@ -8601,7 +8863,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 228.6) (xy 304.8 228.6)
+			(xy 327.66 228.6) (xy 326.39 228.6)
 		)
 		(stroke
 			(width 0)
@@ -8851,6 +9113,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 125.73) (xy 273.05 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79303ff2-4062-4c75-a8f0-2c06eaec37c0")
+	)
+	(wire
+		(pts
 			(xy 215.9 83.82) (xy 213.36 83.82)
 		)
 		(stroke
@@ -8871,7 +9143,17 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 222.25) (xy 355.6 228.6)
+			(xy 24.13 240.03) (xy 24.13 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c88a9ab-96ec-4180-92c3-09f3f560639a")
+	)
+	(wire
+		(pts
+			(xy 361.95 222.25) (xy 361.95 228.6)
 		)
 		(stroke
 			(width 0)
@@ -8921,6 +9203,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 233.68) (xy 15.24 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "812f5469-92ca-46d4-a52e-1e366dcde56e")
+	)
+	(wire
+		(pts
 			(xy 128.27 90.17) (xy 128.27 95.25)
 		)
 		(stroke
@@ -8951,7 +9243,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 215.9) (xy 356.87 215.9)
+			(xy 361.95 215.9) (xy 363.22 215.9)
 		)
 		(stroke
 			(width 0)
@@ -9011,6 +9303,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 228.6) (xy 74.93 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85064ba8-7682-4ee8-9453-6846700daed0")
+	)
+	(wire
+		(pts
 			(xy 67.31 223.52) (xy 62.23 223.52)
 		)
 		(stroke
@@ -9061,6 +9363,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 220.98) (xy 74.93 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860b2c35-4b3f-4288-979e-8fbdec5d7841")
+	)
+	(wire
+		(pts
 			(xy 372.11 167.64) (xy 365.76 167.64)
 		)
 		(stroke
@@ -9088,6 +9400,16 @@
 			(type dash)
 		)
 		(uuid "876cb5c5-15cc-4fe0-9d11-e4d132e802bd")
+	)
+	(wire
+		(pts
+			(xy 73.66 257.81) (xy 82.55 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d91650-5466-426f-99de-543b08ac6bc6")
 	)
 	(wire
 		(pts
@@ -9131,6 +9453,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 265.43) (xy 24.13 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a34521c-45a6-473b-b294-14e9eef6c0bf")
+	)
+	(wire
+		(pts
 			(xy 220.98 104.14) (xy 228.6 104.14)
 		)
 		(stroke
@@ -9158,16 +9490,6 @@
 			(type default)
 		)
 		(uuid "8b6f221d-2d25-4c6a-8a30-edac71d13848")
-	)
-	(wire
-		(pts
-			(xy 304.8 118.11) (xy 280.67 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c8b3ae7-b13a-412f-a5be-6fdb6b2327ac")
 	)
 	(wire
 		(pts
@@ -9231,7 +9553,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 222.25) (xy 304.8 228.6)
+			(xy 326.39 222.25) (xy 326.39 228.6)
 		)
 		(stroke
 			(width 0)
@@ -9268,6 +9590,16 @@
 			(type default)
 		)
 		(uuid "904ba3ba-5626-4bcf-8b14-6c1ac68e5f95")
+	)
+	(wire
+		(pts
+			(xy 262.89 125.73) (xy 273.05 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909bfea4-7d87-435a-ba42-3b8f42ff3178")
 	)
 	(wire
 		(pts
@@ -9381,7 +9713,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 215.9) (xy 304.8 222.25)
+			(xy 326.39 215.9) (xy 326.39 222.25)
 		)
 		(stroke
 			(width 0)
@@ -9481,6 +9813,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 264.16) (xy 73.66 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec0f3ce-051c-4970-99bc-bbbffac8cde8")
+	)
+	(wire
+		(pts
 			(xy 304.8 168.91) (xy 298.45 168.91)
 		)
 		(stroke
@@ -9508,6 +9850,16 @@
 			(type default)
 		)
 		(uuid "9fe2f79c-478d-4e81-a759-6bd0367bb8f6")
+	)
+	(wire
+		(pts
+			(xy 330.2 127) (xy 340.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c089d1-a98d-4f9e-b06e-62913e2a797d")
 	)
 	(wire
 		(pts
@@ -9541,6 +9893,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 266.7) (xy 82.55 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a49334d0-9003-4eb1-aebc-8169799b4020")
+	)
+	(wire
+		(pts
 			(xy 53.34 168.91) (xy 63.5 168.91)
 		)
 		(stroke
@@ -9558,6 +9920,16 @@
 			(type default)
 		)
 		(uuid "a5dfc250-1120-4284-b71b-b968f0396abe")
+	)
+	(wire
+		(pts
+			(xy 83.82 229.87) (xy 83.82 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6104d20-5c78-4698-b54a-3de94988b9ad")
 	)
 	(wire
 		(pts
@@ -9621,7 +9993,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 234.95) (xy 304.8 237.49)
+			(xy 326.39 234.95) (xy 326.39 237.49)
 		)
 		(stroke
 			(width 0)
@@ -9651,6 +10023,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 223.52) (xy 15.24 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad47da4b-f0c0-43f0-92b6-69c8fe54cdd1")
+	)
+	(wire
+		(pts
 			(xy 220.98 63.5) (xy 223.52 63.5)
 		)
 		(stroke
@@ -9658,6 +10040,26 @@
 			(type default)
 		)
 		(uuid "adcfe436-de48-4711-9753-22f4ce7b0c92")
+	)
+	(wire
+		(pts
+			(xy 24.13 274.32) (xy 24.13 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee9f32b-b6c8-4f3b-9f9f-d929ceb990bb")
+	)
+	(wire
+		(pts
+			(xy 82.55 259.08) (xy 82.55 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afcfa101-7975-4c9d-b82c-12d453419cc0")
 	)
 	(wire
 		(pts
@@ -9751,6 +10153,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 118.11) (xy 304.8 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b381f061-6717-4675-bdd9-7721513b2e6c")
+	)
+	(wire
+		(pts
 			(xy 128.27 135.89) (xy 128.27 140.97)
 		)
 		(stroke
@@ -9841,6 +10253,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 250.19) (xy 15.24 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8d27d1-6167-4e5a-873c-561320dd12ba")
+	)
+	(wire
+		(pts
 			(xy 59.69 110.49) (xy 53.34 110.49)
 		)
 		(stroke
@@ -9901,16 +10323,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 90.17) (xy 156.21 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2145472-435d-4a3d-96fc-67f75c1ee050")
-	)
-	(wire
-		(pts
 			(xy 137.16 146.05) (xy 128.27 146.05)
 		)
 		(stroke
@@ -9968,16 +10380,6 @@
 			(type default)
 		)
 		(uuid "c521ca7c-1398-40f1-9a99-683dd388f7c3")
-	)
-	(wire
-		(pts
-			(xy 156.21 90.17) (xy 166.37 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c540078d-9693-4dbd-a85d-71263251d2e9")
 	)
 	(wire
 		(pts
@@ -10101,6 +10503,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 265.43) (xy 82.55 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd55ec05-93fb-4edb-a01f-60dcfe7eeec1")
+	)
+	(wire
+		(pts
 			(xy 137.16 85.09) (xy 128.27 85.09)
 		)
 		(stroke
@@ -10128,6 +10540,16 @@
 			(type default)
 		)
 		(uuid "ced90496-ca64-4edf-8129-91794583d42a")
+	)
+	(wire
+		(pts
+			(xy 73.66 257.81) (xy 73.66 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d001ce4d-6bc3-4681-a6a0-f07aa83cdf2c")
 	)
 	(wire
 		(pts
@@ -10301,6 +10723,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 119.38) (xy 273.05 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84943ac-9568-4e89-8cc3-60cd864f15e4")
+	)
+	(wire
+		(pts
 			(xy 63.5 166.37) (xy 63.5 168.91)
 		)
 		(stroke
@@ -10341,6 +10773,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 241.3) (xy 24.13 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8206aa-558f-4df0-a5ef-8279bfe005db")
+	)
+	(wire
+		(pts
 			(xy 59.69 173.99) (xy 59.69 180.34)
 		)
 		(stroke
@@ -10371,6 +10813,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 124.46) (xy 273.05 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db590da1-696a-4c7b-8dad-29fdde558f1b")
+	)
+	(wire
+		(pts
 			(xy 205.74 119.38) (xy 205.74 99.06)
 		)
 		(stroke
@@ -10391,7 +10843,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 228.6) (xy 355.6 234.95)
+			(xy 361.95 228.6) (xy 361.95 234.95)
 		)
 		(stroke
 			(width 0)
@@ -10441,6 +10893,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 120.65) (xy 340.36 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de276a95-2c42-45af-a6f4-5e749e317a85")
+	)
+	(wire
+		(pts
 			(xy 304.8 90.17) (xy 284.48 90.17)
 		)
 		(stroke
@@ -10448,6 +10910,26 @@
 			(type default)
 		)
 		(uuid "de7f6bd0-c537-45b2-8c57-fc56e26c1e7d")
+	)
+	(wire
+		(pts
+			(xy 15.24 232.41) (xy 24.13 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe07ca9-f3c4-4eda-9399-e0962fc418c1")
+	)
+	(wire
+		(pts
+			(xy 24.13 232.41) (xy 24.13 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e050ec99-d8ef-49e0-9404-bac38d030248")
 	)
 	(wire
 		(pts
@@ -10721,7 +11203,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 130.81) (xy 156.21 130.81)
+			(xy 15.24 223.52) (xy 24.13 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb8765e-d5fd-4cba-ac68-eb76cbda7eaf")
+	)
+	(wire
+		(pts
+			(xy 152.4 130.81) (xy 166.37 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10768,6 +11260,16 @@
 			(type default)
 		)
 		(uuid "f4c4446c-72f9-466f-b7b4-8a170ed8e667")
+	)
+	(wire
+		(pts
+			(xy 74.93 222.25) (xy 83.82 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5790cb0-1868-495f-b03f-18e08db9d1a6")
 	)
 	(wire
 		(pts
@@ -10858,6 +11360,16 @@
 			(type default)
 		)
 		(uuid "f90b97e9-ec8f-4d6d-9763-247edf956ad5")
+	)
+	(wire
+		(pts
+			(xy 82.55 264.16) (xy 82.55 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9436e87-633d-4e0f-81ae-17077a26f78f")
 	)
 	(wire
 		(pts
@@ -11001,7 +11513,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 222.25) (xy 304.8 222.25)
+			(xy 327.66 222.25) (xy 326.39 222.25)
 		)
 		(stroke
 			(width 0)
@@ -11021,7 +11533,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 90.17) (xy 156.21 90.17)
+			(xy 147.32 90.17) (xy 166.37 90.17)
 		)
 		(stroke
 			(width 0)
@@ -11210,17 +11722,6 @@
 			(justify right bottom)
 		)
 		(uuid "0c5b3087-a67e-49e2-9083-96f60063027b")
-	)
-	(label "GPIO1_3"
-		(at 347.98 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "114c32eb-c38f-4989-9205-466e19199d21")
 	)
 	(label "CSI1.D0_N"
 		(at 73.66 59.69 180)
@@ -11596,6 +12097,17 @@
 		)
 		(uuid "77af1300-799b-497d-85b6-987b46690330")
 	)
+	(label "3V3_0"
+		(at 17.78 248.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "784f26b5-ca4e-49bd-8fc9-405c786211b1")
+	)
 	(label "CSI1.CLK_P"
 		(at 73.66 69.85 180)
 		(fields_autoplaced yes)
@@ -11705,6 +12217,17 @@
 			(justify left bottom)
 		)
 		(uuid "8ab73d52-3135-425e-90d1-5cc82ae1f15b")
+	)
+	(label "5V_1"
+		(at 17.78 232.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e0135c4-5e2d-4c45-ab1e-afa357f8fe08")
 	)
 	(label "CSI0.D2_N"
 		(at 284.48 90.17 0)
@@ -11882,6 +12405,17 @@
 		)
 		(uuid "b00321cc-7c55-49c0-aa05-fdf26fba75a8")
 	)
+	(label "GPIO0_3"
+		(at 262.89 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0dd5c5f-6d74-4dc8-bc80-4e158d7e3bc2")
+	)
 	(label "CSI1.D2_N"
 		(at 73.66 49.53 180)
 		(fields_autoplaced yes)
@@ -11904,17 +12438,6 @@
 		)
 		(uuid "b808e61c-4da2-47c1-8fe6-d278b9d36c4b")
 	)
-	(label "GPIO0_3"
-		(at 280.67 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bbbbba6f-df0b-4c13-8f34-2d8de7ccd299")
-	)
 	(label "CSI0.CLK_N"
 		(at 73.66 113.03 180)
 		(fields_autoplaced yes)
@@ -11936,6 +12459,17 @@
 			(justify left bottom)
 		)
 		(uuid "be366f8c-71d3-49bc-8d1c-f75af3a14309")
+	)
+	(label "GPIO1_3"
+		(at 330.2 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be3e4f42-5c30-4b1f-b3bf-18cf197823ed")
 	)
 	(label "5V_1"
 		(at 238.76 262.89 0)
@@ -12124,6 +12658,17 @@
 		)
 		(uuid "d68dc382-ac91-40a2-b5cf-191db6bda9a1")
 	)
+	(label "3V3_1"
+		(at 17.78 265.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d76769ac-beb2-4b96-a6cf-c1e297aa308f")
+	)
 	(label "SDA_CAM0"
 		(at 77.47 140.97 180)
 		(fields_autoplaced yes)
@@ -12157,6 +12702,17 @@
 		)
 		(uuid "db987194-471e-4d05-9210-ea4af77b3975")
 	)
+	(label "3V3_FFC"
+		(at 73.66 257.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddfc07ad-e51a-4d18-b956-fc5846d25552")
+	)
 	(label "3V3_1"
 		(at 38.1 259.08 0)
 		(fields_autoplaced yes)
@@ -12178,6 +12734,17 @@
 			(justify left bottom)
 		)
 		(uuid "dffe01d5-eb1f-4dc5-8fb4-f6f504f9bcf6")
+	)
+	(label "5V_0"
+		(at 17.78 215.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1529ec2-6735-4ae0-a2c5-a372ba4f9e91")
 	)
 	(label "SDA_CAM1_1"
 		(at 245.11 114.3 180)
@@ -12312,36 +12879,16 @@
 		(uuid "fa46ca43-f2c1-41bc-9053-6221f109b3f2")
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
-		(at 356.87 222.25 0)
+		(lib_id "antmicropower:GND")
+		(at 24.13 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(uuid "00f7c927-a0f2-498f-9915-6c200bd12460")
-		(property "Reference" "H6"
-			(at 365.76 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 365.76 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 379.73 229.87 0)
+		(dnp no)
+		(uuid "03b88c1c-5f6d-4426-8f60-f5dfc089e850")
+		(property "Reference" "#PWR048"
+			(at 33.02 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12351,8 +12898,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774030151.pdf"
-			(at 379.73 232.41 0)
+		(property "Value" "GND"
+			(at 24.13 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12362,17 +12918,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Spacer, SMT,  Steel, Swage Round, 5.1mmx3mm, M3 Thread, WA-SMSI Series"
-			(at 356.87 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 379.73 234.95 0)
+		(property "Datasheet" ""
+			(at 33.02 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12382,19 +12929,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "9774030151R"
-			(at 379.73 237.49 0)
+		(property "Description" ""
+			(at 24.13 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 379.73 240.03 0)
+			(at 33.02 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12405,7 +12950,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 379.73 242.57 0)
+			(at 33.02 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12415,21 +12960,13 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 371.094 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "f6915e66-07ce-420a-a692-2ab2e1171f7f")
+			(uuid "3d0f6ff9-492d-4dac-8b2d-0a875491e60a")
 		)
 		(instances
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "H6")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -12594,6 +13131,100 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
+		(at 83.82 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0568284b-d2cd-4add-a144-3f104d9f0dc5")
+		(property "Reference" "#PWR043"
+			(at 92.71 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 92.71 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 92.71 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9725151e-384e-435b-90f0-fded2aedc5a1")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
 		(at 269.24 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12747,6 +13378,163 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 142.24 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "0a840444-06d0-4f46-a479-b5086a19a33a")
+		(property "Reference" "R15"
+			(at 137.922 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 121.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 121.92 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 121.92 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 141.986 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 121.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" "DNP"
+			(at 139.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4fb32ea1-573a-4119-a6d4-d7b5df5bce6f")
+		)
+		(pin "1"
+			(uuid "6f75dcae-aa1d-4dd0-8dc7-a2fd7fda6880")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -13050,6 +13838,163 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 142.24 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "0e7b0651-86c1-4070-b249-01054c14ba58")
+		(property "Reference" "R7"
+			(at 137.922 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 121.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 142.24 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 121.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 121.92 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 121.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 121.92 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 141.986 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 121.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 121.92 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" "DNP"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0e465c70-4dc1-49a7-82cc-c2d605ed4106")
+		)
+		(pin "1"
+			(uuid "17e4578d-6cf2-4736-8669-9e1dc7e01030")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -13667,6 +14612,195 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:GND")
+		(at 340.36 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1752c68f-76dc-404d-86e7-fc9fe3cd9b17")
+		(property "Reference" "#PWR037"
+			(at 349.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 338.328 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 340.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 349.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 349.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "636e758a-1cd7-4929-8d9d-8109e5ab763b")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+5V")
+		(at 74.93 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18171977-6f71-4cfa-a2dd-ef411e3b906d")
+		(property "Reference" "#PWR050"
+			(at 90.17 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 74.93 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 90.17 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 90.17 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bafbdc9-7229-4988-b492-436931c456e9")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
 		(at 354.33 165.1 90)
 		(unit 1)
@@ -13726,6 +14860,281 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0603:C_10u_25V_0603")
+		(at 15.24 222.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a3fc37a-0ef1-4ff0-ab2a-4c1227fbd37f")
+		(property "Reference" "C13"
+			(at 17.78 218.4336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_10u_25V_0603"
+			(at 25.4 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+			(at 27.94 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1E106M080AC"
+			(at 30.48 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0603 [1608 Metric], ± 20%, X5R, C"
+			(at 15.24 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1608X5R1E106M080AC"
+			(at 33.02 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 35.56 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 38.1 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 40.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10u"
+			(at 17.78 220.9736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 43.18 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 45.72 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ee9cfb3-63f1-482d-961a-95af7c4aba31")
+		)
+		(pin "2"
+			(uuid "11b928ea-1795-465f-8d17-33d914790ada")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R")
+		(at 363.22 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "1a73d53c-32a4-4c5a-8a97-1093549324bb")
+		(property "Reference" "H6"
+			(at 372.11 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 386.08 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 386.08 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf"
+			(at 386.08 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
+			(at 363.22 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 386.08 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774060151R"
+			(at 372.11 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 386.08 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 386.08 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" "DNP"
+			(at 377.698 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d04717c-5148-44c8-a568-ce05d94e407e")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -13941,6 +15350,157 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 24.13 222.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2079b335-d772-4358-8f8f-0f8a259aba99")
+		(property "Reference" "C14"
+			(at 26.67 218.4336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 34.29 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 36.83 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 39.37 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 24.13 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 41.91 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 44.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 46.99 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 49.53 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 26.67 220.9736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 52.07 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 54.61 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0f30eaf-3e3c-4574-a3ef-6f42d13e93b3")
+		)
+		(pin "2"
+			(uuid "0054514c-773b-497f-9f11-0fb0196df360")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_470R_0402")
 		(at 243.84 226.06 90)
 		(unit 1)
@@ -14076,6 +15636,100 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 24.13 274.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25a526d5-7ac2-41a0-91ff-c0f70440c10f")
+		(property "Reference" "#PWR044"
+			(at 33.02 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 33.02 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 33.02 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb7ae159-2b52-47cb-99bb-bb376c8fb9f9")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -14354,6 +16008,157 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitors0603:C_10u_25V_0603")
+		(at 15.24 238.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d7d0d88-2bb2-426b-b741-91d982527a1a")
+		(property "Reference" "C15"
+			(at 17.78 234.9436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_10u_25V_0603"
+			(at 25.4 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+			(at 27.94 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1E106M080AC"
+			(at 30.48 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0603 [1608 Metric], ± 20%, X5R, C"
+			(at 15.24 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1608X5R1E106M080AC"
+			(at 33.02 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 35.56 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 38.1 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 40.64 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10u"
+			(at 17.78 237.4836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 43.18 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 45.72 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f230d0e-cce9-4f7d-9d8f-f1d7c375be30")
+		)
+		(pin "2"
+			(uuid "5058235b-d17c-44b4-bd89-b7cca303938c")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:+5V")
 		(at 243.84 209.55 0)
 		(unit 1)
@@ -14443,130 +16248,6 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
-		(at 356.87 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "32e4199d-4bf5-4db9-a639-2d3a2a1865ef")
-		(property "Reference" "H7"
-			(at 365.76 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 365.76 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 379.73 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774030151.pdf"
-			(at 379.73 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Spacer, SMT,  Steel, Swage Round, 5.1mmx3mm, M3 Thread, WA-SMSI Series"
-			(at 356.87 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 379.73 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "9774030151R"
-			(at 379.73 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 379.73 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 379.73 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 371.094 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "927e83a8-a039-41f8-ab29-7243ad83cd8e")
-		)
-		(instances
-			(project "dual-camera-to-gmsl-serializer-csi-adapter"
-				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -15281,6 +16962,157 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitors0603:C_10u_25V_0603")
+		(at 73.66 264.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "387cfe14-61a9-4bde-ac23-94d5f9508f08")
+		(property "Reference" "C21"
+			(at 76.2 260.3436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_10u_25V_0603"
+			(at 83.82 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+			(at 86.36 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1E106M080AC"
+			(at 88.9 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0603 [1608 Metric], ± 20%, X5R, C"
+			(at 73.66 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1608X5R1E106M080AC"
+			(at 91.44 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 93.98 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 96.52 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 99.06 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10u"
+			(at 76.2 262.8836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 101.6 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 104.14 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1a7c542-adf7-457d-83e7-2500cd971eed")
+		)
+		(pin "2"
+			(uuid "a8c37020-2a23-4f6d-a38a-02b764c5696e")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 337.82 179.07 0)
 		(unit 1)
@@ -15873,6 +17705,147 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroResistors0402:R_10k_0402")
+		(at 273.05 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e9acf90-626b-4065-b8c4-e51aac21463a")
+		(property "Reference" "R47"
+			(at 275.59 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_10k_0402"
+			(at 285.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 288.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 290.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 273.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1002GLF"
+			(at 293.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 295.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 298.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 300.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10k"
+			(at 275.59 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 283.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a08d7c05-44a8-480e-9288-303c8415a8cb")
+		)
+		(pin "2"
+			(uuid "34e522d9-e6cb-46be-92f9-eb0cace17d43")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 245.11 104.14 0)
 		(unit 1)
@@ -16073,152 +18046,6 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 137.16 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "4212afb2-37e4-4802-b5e3-cefd80ff6392")
-		(property "Reference" "R7"
-			(at 138.176 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 157.48 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 157.48 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 157.48 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 137.16 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 157.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 157.48 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 157.48 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 157.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 142.24 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 157.48 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 139.7 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f40822be-d48c-475c-aa32-b7426046baea")
-		)
-		(pin "1"
-			(uuid "c07c2c97-8c44-4296-aadc-745b0d0db845")
-		)
-		(instances
-			(project "dual-camera-to-gmsl-serializer-csi-adapter"
-				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -16864,140 +18691,16 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
-		(at 356.87 234.95 0)
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 142.24 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp yes)
-		(uuid "470a001c-41a3-47e2-8833-f5ef13849ea3")
-		(property "Reference" "H8"
-			(at 365.76 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 365.76 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 379.73 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774030151.pdf"
-			(at 379.73 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Spacer, SMT,  Steel, Swage Round, 5.1mmx3mm, M3 Thread, WA-SMSI Series"
-			(at 356.87 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 379.73 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "9774030151R"
-			(at 379.73 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 379.73 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 379.73 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 371.094 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e3ecdbe9-adb1-4c48-baf6-3d4421359afd")
-		)
-		(instances
-			(project "dual-camera-to-gmsl-serializer-csi-adapter"
-				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "H8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 137.16 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "493dc7c5-dc86-4cef-8c8a-69118c242f70")
-		(property "Reference" "R21"
-			(at 138.176 143.764 0)
+		(uuid "46cd3f9f-eead-4e15-b14b-311afd45447b")
+		(property "Reference" "R19"
+			(at 137.922 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17005,8 +18708,8 @@
 				)
 			)
 		)
-		(property "Value" "R_10k_0402"
-			(at 157.48 158.75 0)
+		(property "Value" "R_0R_0402"
+			(at 121.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17017,7 +18720,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 157.48 161.29 0)
+			(at 121.92 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17027,8 +18730,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 157.48 163.83 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 121.92 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17038,8 +18741,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 137.16 146.05 0)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 142.24 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17047,8 +18750,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 157.48 166.37 0)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 121.92 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17058,8 +18761,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 157.48 168.91 0)
+		(property "Manufacturer" "Panasonic"
+			(at 121.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17070,7 +18773,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 157.48 171.45 0)
+			(at 121.92 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17081,7 +18784,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 157.48 173.99 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17091,8 +18794,8 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "10k"
-			(at 142.24 143.764 0)
+		(property "Val" "0R"
+			(at 141.986 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17100,26 +18803,45 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 157.48 156.21 0)
+		(property "Tolerance" "~"
+			(at 121.92 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 121.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" "DNP"
+			(at 139.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
-			(uuid "a7d78848-bac4-43f5-8170-46fcbbb41a0b")
+			(uuid "a14df4df-af05-479f-a84a-03c6fba0a50b")
 		)
 		(pin "1"
-			(uuid "d697f656-6bd3-46cb-8a02-2ecb414e959c")
+			(uuid "f3f711e3-dd56-4410-847b-782e77da47a3")
 		)
 		(instances
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "R21")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -17471,6 +19193,123 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R")
+		(at 327.66 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "513ae132-e972-4508-9f1f-aafd66352eef")
+		(property "Reference" "H3"
+			(at 336.55 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 350.52 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 350.52 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf"
+			(at 350.52 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
+			(at 327.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 350.52 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774060151R"
+			(at 336.55 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 350.52 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 350.52 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6707cfb9-a36f-46d4-bded-667c9a118a68")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 68.58 180)
 		(unit 1)
@@ -17722,6 +19561,100 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:GND")
+		(at 82.55 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "569a49b7-400f-4c95-9395-24e7866a6df1")
+		(property "Reference" "#PWR052"
+			(at 91.44 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 91.44 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 91.44 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3fc1d95-1de7-450f-b418-3aee07cf93cf")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 246.38 212.09 0)
 		(unit 1)
@@ -17830,147 +19763,6 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "TP21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_12k_0402")
-		(at 156.21 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cd6fdab-b67f-4c95-8222-05c8c9fcb37f")
-		(property "Reference" "R43"
-			(at 158.75 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_12k_0402"
-			(at 168.91 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 171.45 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 173.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 12 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 156.21 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1202GLF"
-			(at 176.53 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 179.07 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 181.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 184.15 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "12k"
-			(at 158.75 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 166.37 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "024a14ea-b57e-4fa0-9562-8601e41976f9")
-		)
-		(pin "2"
-			(uuid "60af9818-d863-4fbc-b31b-eeb4cc2b7178")
-		)
-		(instances
-			(project ""
-				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -18469,6 +20261,130 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R")
+		(at 363.22 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "61a3f763-4d14-4e2b-b084-7f9e5527e6c4")
+		(property "Reference" "H5"
+			(at 372.11 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 386.08 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 386.08 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf"
+			(at 386.08 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
+			(at 363.22 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 386.08 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774060151R"
+			(at 372.11 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 386.08 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 386.08 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" "DNP"
+			(at 377.698 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e5564f9-7f61-4bde-82b0-252ab1488e1d")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -19025,16 +20941,16 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 137.16 105.41 0)
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 142.24 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp yes)
-		(uuid "68e6a038-ae38-4f80-b11e-c50a6e334048")
-		(property "Reference" "R13"
-			(at 138.176 103.124 0)
+		(uuid "6901448b-f886-45d6-8480-188c30170927")
+		(property "Reference" "R17"
+			(at 137.922 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19042,8 +20958,8 @@
 				)
 			)
 		)
-		(property "Value" "R_10k_0402"
-			(at 157.48 118.11 0)
+		(property "Value" "R_0R_0402"
+			(at 121.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19054,7 +20970,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 157.48 120.65 0)
+			(at 121.92 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19064,8 +20980,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 157.48 123.19 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19075,8 +20991,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 137.16 105.41 0)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 142.24 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19084,8 +21000,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 157.48 125.73 0)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 121.92 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19095,8 +21011,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 157.48 128.27 0)
+		(property "Manufacturer" "Panasonic"
+			(at 121.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19107,7 +21023,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 157.48 130.81 0)
+			(at 121.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19118,7 +21034,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 157.48 133.35 0)
+			(at 121.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19128,8 +21044,8 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "10k"
-			(at 142.24 103.124 0)
+		(property "Val" "0R"
+			(at 141.986 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19137,18 +21053,29 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 157.48 115.57 0)
+		(property "Tolerance" "~"
+			(at 121.92 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "DNP" "DNP"
-			(at 139.7 105.41 0)
+			(at 139.7 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19156,15 +21083,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b7de6694-d5a5-4bc1-996b-a78a5537e3f4")
+			(uuid "87283cba-df2f-4b20-8638-e1dfa68ee35f")
 		)
 		(pin "1"
-			(uuid "48dcd2dd-3bc8-4e5e-949e-c461179f38e7")
+			(uuid "468ff5bd-40e0-496b-912c-5e29763c3441")
 		)
 		(instances
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "R13")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -19287,7 +21214,7 @@
 		(at 220.98 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "6a7d9d5c-ed80-44ac-a7d9-cf6026354f8d")
@@ -20027,144 +21954,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 137.16 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d308642-c2e1-43b2-8dc7-e05a78ed9107")
-		(property "Reference" "R11"
-			(at 138.176 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 157.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 157.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 157.48 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 137.16 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 157.48 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 157.48 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 157.48 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 157.48 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 142.24 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 157.48 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a47ac2c6-a074-42e4-bca5-d6d56c5de555")
-		)
-		(pin "1"
-			(uuid "cac9704d-bdb2-487d-ac36-154b7e9f5110")
-		)
-		(instances
-			(project ""
-				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 83.82 180)
 		(unit 1)
@@ -20316,6 +22105,280 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R")
+		(at 327.66 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71bf5a90-90a8-43d7-b66a-bb9a8e6c7053")
+		(property "Reference" "H1"
+			(at 336.55 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 350.52 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 350.52 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf"
+			(at 350.52 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
+			(at 327.66 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 350.52 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774060151R"
+			(at 336.55 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 350.52 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 350.52 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e86fad6-40a3-448c-b510-d42b55dfc7a3")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 142.24 146.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72329bc9-1dfa-4a1d-a21b-80a922938d64")
+		(property "Reference" "R21"
+			(at 137.668 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 121.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 121.92 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 142.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 121.92 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 121.92 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 121.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 121.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 141.732 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 121.92 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 121.92 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 142.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1b4b5a13-6804-4541-8876-2416eb143212")
+		)
+		(pin "1"
+			(uuid "98556dd3-d21f-4d24-b358-3df344379998")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -20652,152 +22715,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 137.16 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "735ad01f-aaf8-4ddc-9bb0-ad4e9f04e3c0")
-		(property "Reference" "R19"
-			(at 138.176 133.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 157.48 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 157.48 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 157.48 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 137.16 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 157.48 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 157.48 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 157.48 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 157.48 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 142.24 133.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 157.48 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 139.7 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4cc92f1a-bf3e-403e-9908-b65631115cdf")
-		)
-		(pin "1"
-			(uuid "5073e75b-68ac-4159-b69a-b4cc3182b204")
-		)
-		(instances
-			(project "dual-camera-to-gmsl-serializer-csi-adapter"
-				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
 		(at 264.16 245.11 270)
 		(mirror x)
@@ -20933,6 +22850,157 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0603:C_10u_25V_0603")
+		(at 15.24 271.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c018a42-1618-4bb0-bfce-44ab46e1a5ff")
+		(property "Reference" "C18"
+			(at 17.78 267.9636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_10u_25V_0603"
+			(at 25.4 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+			(at 27.94 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1E106M080AC"
+			(at 30.48 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0603 [1608 Metric], ± 20%, X5R, C"
+			(at 15.24 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1608X5R1E106M080AC"
+			(at 33.02 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 35.56 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 38.1 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 40.64 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10u"
+			(at 17.78 270.5036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 43.18 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 45.72 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d40e0143-3050-4354-96fc-9bb452540c53")
+		)
+		(pin "2"
+			(uuid "1ceb5248-c772-459a-98e5-93ace9659740")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -21174,16 +23242,27 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
-		(at 356.87 215.9 0)
+		(lib_id "antmicropower:GND")
+		(at 273.05 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(uuid "7f5f3e47-194a-44cc-8f9e-c3e0f6855094")
-		(property "Reference" "H5"
-			(at 365.76 214.63 0)
+		(dnp no)
+		(uuid "7eba4221-ecac-4470-9785-9dc58147fe9e")
+		(property "Reference" "#PWR035"
+			(at 281.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.018 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21192,18 +23271,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 365.76 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 379.73 223.52 0)
+		(property "Footprint" ""
+			(at 281.94 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21213,8 +23282,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774030151.pdf"
-			(at 379.73 226.06 0)
+		(property "Datasheet" ""
+			(at 281.94 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21224,39 +23293,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Spacer, SMT,  Steel, Swage Round, 5.1mmx3mm, M3 Thread, WA-SMSI Series"
-			(at 356.87 215.9 0)
+		(property "Description" ""
+			(at 273.05 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 379.73 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "9774030151R"
-			(at 379.73 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 379.73 233.68 0)
+			(at 281.94 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21267,7 +23314,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 379.73 236.22 0)
+			(at 281.94 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21277,167 +23324,13 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 371.094 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "c5d1d9a0-7b33-4a57-9695-fe3c0c875da6")
+			(uuid "17f7d3b9-52db-4d66-a70a-c4b2ee016bef")
 		)
 		(instances
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 137.16 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "81377fdb-b04e-4f24-b85b-487e81393aa8")
-		(property "Reference" "R17"
-			(at 138.176 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 157.48 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 157.48 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 157.48 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 137.16 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 157.48 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 157.48 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 157.48 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 157.48 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 142.24 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 157.48 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 139.7 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "47d57fce-15da-4c17-8494-089c7813129f")
-		)
-		(pin "1"
-			(uuid "6f99a305-2572-46b3-a5d7-501f0be4036e")
-		)
-		(instances
-			(project "dual-camera-to-gmsl-serializer-csi-adapter"
-				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "R17")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -21448,7 +23341,7 @@
 		(at 73.66 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "835471b9-74be-4c52-8f25-57e1da5205a9")
@@ -21900,6 +23793,304 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroResistors0402:R_10k_0402")
+		(at 340.36 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "857464a9-4af6-41b4-be54-37eb679d8c4d")
+		(property "Reference" "R48"
+			(at 342.9 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_10k_0402"
+			(at 353.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 355.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 358.14 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 340.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1002GLF"
+			(at 360.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 363.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 365.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 368.3 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10k"
+			(at 342.9 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 350.52 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "128a9e14-f3ae-4a32-a3c3-46d924926aa1")
+		)
+		(pin "2"
+			(uuid "14c4b143-7407-4849-b671-9a902b44c53e")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 142.24 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "86430bf0-0e84-43dd-a82a-ff48024402c0")
+		(property "Reference" "R9"
+			(at 137.922 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 121.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 121.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 142.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 121.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 121.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 141.986 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 121.92 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 121.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" "DNP"
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8a11c6f4-df6c-4423-97f6-2ed2bb8cc3e1")
+		)
+		(pin "1"
+			(uuid "bdc0f110-63dc-403d-9b32-a22be7d9bf0f")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 142.24 90.17 180)
 		(unit 1)
@@ -22051,6 +24242,100 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 24.13 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c2857e8-4f80-48fa-9cf3-b7f90472e4e6")
+		(property "Reference" "#PWR047"
+			(at 33.02 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 33.02 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 33.02 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b10243b-a241-4079-bf65-748ab08873f1")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -22956,6 +25241,163 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 142.24 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "938f4f2f-27ba-415f-a330-24f2b079dfe6")
+		(property "Reference" "R13"
+			(at 137.922 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 121.92 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 121.92 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 121.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 141.986 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 121.92 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" "DNP"
+			(at 139.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0475191d-f2c0-45e9-bb07-e137fd0aab6a")
+		)
+		(pin "1"
+			(uuid "d59d7f1e-2566-4daf-891b-0b8e6e485451")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
 		(at 243.84 245.11 270)
 		(mirror x)
@@ -23446,37 +25888,27 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
-		(at 306.07 234.95 0)
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 83.82 228.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "99313c53-60c2-4b8e-bfcc-99b97ecd9592")
-		(property "Reference" "H4"
-			(at 314.96 233.68 0)
+		(uuid "9a0d27fa-4a97-47d8-9dbb-21a67fce389e")
+		(property "Reference" "C12"
+			(at 86.36 224.7836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 314.96 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 328.93 242.57 0)
+		(property "Value" "C_100n_0402"
+			(at 93.98 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23486,8 +25918,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774030151.pdf"
-			(at 328.93 245.11 0)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 96.52 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23497,17 +25929,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Spacer, SMT,  Steel, Swage Round, 5.1mmx3mm, M3 Thread, WA-SMSI Series"
-			(at 306.07 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 328.93 247.65 0)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 99.06 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23517,8 +25940,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "9774030151R"
-			(at 328.93 250.19 0)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 83.82 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 101.6 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23528,8 +25960,8 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "Antmicro"
-			(at 328.93 252.73 0)
+		(property "Manufacturer" "Murata"
+			(at 104.14 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23540,169 +25972,67 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 328.93 255.27 0)
+			(at 106.68 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 109.22 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 86.36 227.3236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 111.76 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 114.3 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "66e36b69-9b16-4672-bf52-d7a16c22f462")
-		)
-		(instances
-			(project "dual-camera-to-gmsl-serializer-csi-adapter"
-				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 137.16 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "99ad8031-5d74-4e8f-9f0a-ec22f0abcbe3")
-		(property "Reference" "R15"
-			(at 138.176 113.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 157.48 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 157.48 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 157.48 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 137.16 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 157.48 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 157.48 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 157.48 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 157.48 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 142.24 113.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 157.48 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 139.7 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(uuid "84f8fa13-7439-4160-bb4e-15c14a972eb4")
 		)
 		(pin "2"
-			(uuid "49fee7b4-4c4f-4829-9892-8d52a96cbc1e")
-		)
-		(pin "1"
-			(uuid "dc06189e-1feb-4053-848a-4ec2a90bdffd")
+			(uuid "854a2de1-79d1-450a-83d3-9470054f3224")
 		)
 		(instances
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "R15")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -23915,17 +26245,17 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_12k_0402")
-		(at 156.21 137.16 90)
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 82.55 264.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9ed4edbe-db0a-4bc8-916a-92aa51bd07cf")
-		(property "Reference" "R44"
-			(at 158.75 133.35 90)
+		(uuid "9f121141-f23c-4eec-91e3-41466395e32b")
+		(property "Reference" "C22"
+			(at 85.09 260.3436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23934,8 +26264,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_12k_0402"
-			(at 168.91 116.84 0)
+		(property "Value" "C_100n_0402"
+			(at 92.71 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23945,8 +26275,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 171.45 116.84 0)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 95.25 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23956,8 +26286,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 173.99 116.84 0)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 97.79 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23967,8 +26297,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 12 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 156.21 137.16 0)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 82.55 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23976,8 +26306,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1202GLF"
-			(at 176.53 116.84 0)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 100.33 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23987,8 +26317,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 179.07 116.84 0)
+		(property "Manufacturer" "Murata"
+			(at 102.87 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23999,7 +26329,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 181.61 116.84 0)
+			(at 105.41 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24010,7 +26340,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 184.15 116.84 0)
+			(at 107.95 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24020,8 +26350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "12k"
-			(at 158.75 135.89 90)
+		(property "Val" "100n"
+			(at 85.09 262.8836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24030,8 +26360,18 @@
 				(justify right)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 166.37 116.84 0)
+		(property "Voltage" "50V"
+			(at 110.49 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 113.03 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24041,15 +26381,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2bcab2f-2ae3-4238-b84c-8210ea5b0cea")
+			(uuid "44f2171d-cc41-49e7-a082-df88de1b418c")
 		)
 		(pin "2"
-			(uuid "20385231-840e-4811-815c-15a1affe6ff5")
+			(uuid "dbbb53e1-7fa8-454d-8633-4a612884b2d9")
 		)
 		(instances
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "R44")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -24144,101 +26484,6 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 156.21 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a288fcaf-faa5-487e-95bb-897506dcb6bb")
-		(property "Reference" "#PWR037"
-			(at 165.1 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.178 142.494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 165.1 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 165.1 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34379590-d739-4c09-bbed-b9f0ab5a4c91")
-		)
-		(instances
-			(project "dual-camera-to-gmsl-serializer-csi-adapter"
-				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -24396,101 +26641,6 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 156.21 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a32bdad5-6519-445e-8d96-941ba18ba1b4")
-		(property "Reference" "#PWR035"
-			(at 165.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.178 101.854 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 165.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 165.1 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "498529dd-b1bf-4b4a-a00d-3ab6ec51ece8")
-		)
-		(instances
-			(project "dual-camera-to-gmsl-serializer-csi-adapter"
-				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -24833,6 +26983,163 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 142.24 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5ecedba-a1c6-4a84-9cc0-57e775e814e6")
+		(property "Reference" "R11"
+			(at 137.668 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 121.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 121.92 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 121.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 121.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 141.732 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 121.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "efca9a8e-7206-40f6-8bb2-b6fd9e39f96c")
+		)
+		(pin "1"
+			(uuid "0f02927a-c9dd-4317-bee5-029dc9d1fcc4")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 142.24 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24983,6 +27290,130 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R")
+		(at 363.22 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a6f30834-e048-4c03-9ae3-2a8535732b59")
+		(property "Reference" "H8"
+			(at 372.11 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 386.08 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 386.08 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf"
+			(at 386.08 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
+			(at 363.22 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 386.08 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774060151R"
+			(at 372.11 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 386.08 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 386.08 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" "DNP"
+			(at 377.698 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de970c06-0752-4e5f-a51b-4e8c69cc6dfd")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -25953,37 +28384,27 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
-		(at 306.07 222.25 0)
+		(lib_id "antmicroCapacitors0603:C_10u_25V_0603")
+		(at 74.93 228.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b009acba-7ca8-4f40-be44-59eddb967738")
-		(property "Reference" "H2"
-			(at 314.96 220.98 0)
+		(uuid "af9634e7-e3bd-4b8d-9845-84ff4187b266")
+		(property "Reference" "C11"
+			(at 77.47 224.7836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 314.96 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 328.93 229.87 0)
+		(property "Value" "C_10u_25V_0603"
+			(at 85.09 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25993,8 +28414,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774030151.pdf"
-			(at 328.93 232.41 0)
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+			(at 87.63 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26004,17 +28425,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Spacer, SMT,  Steel, Swage Round, 5.1mmx3mm, M3 Thread, WA-SMSI Series"
-			(at 306.07 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 328.93 234.95 0)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1E106M080AC"
+			(at 90.17 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26024,8 +28436,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "9774030151R"
-			(at 328.93 237.49 0)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0603 [1608 Metric], ± 20%, X5R, C"
+			(at 74.93 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1608X5R1E106M080AC"
+			(at 92.71 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26035,8 +28456,8 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "Antmicro"
-			(at 328.93 240.03 0)
+		(property "Manufacturer" "TDK"
+			(at 95.25 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26047,7 +28468,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 328.93 242.57 0)
+			(at 97.79 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26057,13 +28478,57 @@
 				(hide yes)
 			)
 		)
+		(property "Author" "Antmicro"
+			(at 100.33 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10u"
+			(at 77.47 227.3236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 102.87 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 105.41 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "7cdc22f0-6769-4c12-8384-b7202ad5b0c4")
+			(uuid "f1781374-0c8a-4423-a5aa-84bd47b02b75")
+		)
+		(pin "2"
+			(uuid "71b097ed-9119-4e29-a7a6-464ed4cf57da")
 		)
 		(instances
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "H2")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -26612,28 +29077,17 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 355.6 237.49 0)
-		(mirror y)
+		(lib_id "antmicroResistors0402:R_12k_0402")
+		(at 340.36 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bad8f19c-3c75-41eb-9b74-a6bb6ae3ea43")
-		(property "Reference" "#PWR026"
-			(at 346.71 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 353.568 241.808 0)
+		(fields_autoplaced yes)
+		(uuid "b8ef6d91-d9d4-48b5-a056-48c6fb0e5f1c")
+		(property "Reference" "R44"
+			(at 342.9 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26642,8 +29096,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 346.71 245.11 0)
+		(property "Value" "R_12k_0402"
+			(at 353.06 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26653,8 +29107,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 346.71 250.19 0)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 355.6 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26664,8 +29118,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 355.6 237.49 0)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 358.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 12 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 340.36 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26673,8 +29138,19 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "Antmicro"
-			(at 346.71 245.11 0)
+		(property "MPN" "CR0402-FX-1202GLF"
+			(at 360.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 363.22 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26685,7 +29161,137 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 346.71 247.65 0)
+			(at 365.76 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 368.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "12k"
+			(at 342.9 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 350.52 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fd63107-7f63-4fb3-8f9f-e727b5fc0e0f")
+		)
+		(pin "2"
+			(uuid "21ab000d-95eb-4236-944a-a0a9c7898b70")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 361.95 237.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bad8f19c-3c75-41eb-9b74-a6bb6ae3ea43")
+		(property "Reference" "#PWR026"
+			(at 353.06 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 359.918 241.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 353.06 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 353.06 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26702,6 +29308,123 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R")
+		(at 327.66 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc814afb-81c5-41f1-a672-bd7bc88e49e0")
+		(property "Reference" "H4"
+			(at 336.55 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 350.52 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 350.52 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf"
+			(at 350.52 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
+			(at 327.66 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 350.52 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774060151R"
+			(at 336.55 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 350.52 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 350.52 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec41bacf-d125-45a2-9b02-2e4fa4cfe36d")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -26980,6 +29703,100 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
+		(at 24.13 257.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be1b609c-09e5-4af7-8a4b-cbd96bbdd856")
+		(property "Reference" "#PWR041"
+			(at 33.02 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 33.02 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 33.02 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a240d178-15dc-45ec-9c8a-3615e01e8f1f")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
 		(at 281.94 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27234,152 +30051,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 137.16 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "c5933a15-70cd-468b-9194-7b922c88533f")
-		(property "Reference" "R9"
-			(at 138.176 82.804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 157.48 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 157.48 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 157.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 137.16 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 157.48 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 157.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 157.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 157.48 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 142.24 82.804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 157.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 139.7 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b3ad3b02-aa6d-4253-a71b-20cfe0d77bce")
-		)
-		(pin "1"
-			(uuid "15968aa8-9c07-47ad-8e8a-bbf109fd314f")
-		)
-		(instances
-			(project "dual-camera-to-gmsl-serializer-csi-adapter"
-				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 266.7 212.09 0)
 		(unit 1)
@@ -27488,6 +30159,147 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_12k_0402")
+		(at 273.05 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb8eb6ab-7baa-4071-a34e-01ea61fb8f90")
+		(property "Reference" "R43"
+			(at 275.59 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_12k_0402"
+			(at 285.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 288.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 290.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 12 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 273.05 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1202GLF"
+			(at 293.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 295.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 298.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 300.99 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "12k"
+			(at 275.59 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 283.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55b14a1c-1f3c-40c8-b210-172c72b73cbe")
+		)
+		(pin "2"
+			(uuid "270540da-c8cb-4690-8bf5-984d0c0f4f13")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -27645,6 +30457,130 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R")
+		(at 363.22 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ce40fb9f-84c3-4adb-9ecb-10d3560ce724")
+		(property "Reference" "H7"
+			(at 372.11 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 386.08 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 386.08 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf"
+			(at 386.08 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
+			(at 363.22 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 386.08 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774060151R"
+			(at 372.11 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 386.08 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 386.08 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" "DNP"
+			(at 377.698 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04a2cd4a-bee0-4201-b86c-679b8df62628")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -28245,6 +31181,157 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 24.13 238.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dad8ca5f-33c0-4e9f-9eb0-c966d4207d54")
+		(property "Reference" "C16"
+			(at 26.67 234.9436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 34.29 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 36.83 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 39.37 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 24.13 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 41.91 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 44.45 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 46.99 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 49.53 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 26.67 237.4836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 52.07 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 54.61 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09a91037-f472-45df-b0b5-ab65a6b538d9")
+		)
+		(pin "2"
+			(uuid "a9b2e7ee-6abc-4a65-b3f0-a8f6f7915c18")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 166.37 110.49 0)
 		(unit 1)
@@ -28502,6 +31589,157 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 24.13 255.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcb066c1-7ff7-4eb4-bfd1-39b70ea63317")
+		(property "Reference" "C19"
+			(at 26.67 251.4536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 34.29 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 36.83 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 39.37 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 24.13 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 41.91 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 44.45 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 46.99 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 49.53 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 26.67 253.9936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 52.07 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 54.61 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5b8626b-2422-4dd1-a278-9b916c2d548e")
+		)
+		(pin "2"
+			(uuid "a32891d2-fe3e-4b4e-831d-f8421050f187")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -29883,7 +33121,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 304.8 237.49 0)
+		(at 326.39 237.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29892,7 +33130,7 @@
 		(dnp no)
 		(uuid "f13baa2f-9a3b-4562-9708-c1649b39c1b8")
 		(property "Reference" "#PWR025"
-			(at 295.91 240.03 0)
+			(at 317.5 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29903,7 +33141,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 302.768 241.808 0)
+			(at 324.358 241.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29913,7 +33151,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 295.91 245.11 0)
+			(at 317.5 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29924,7 +33162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.91 250.19 0)
+			(at 317.5 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29935,7 +33173,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 304.8 237.49 0)
+			(at 326.39 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29944,7 +33182,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 295.91 245.11 0)
+			(at 317.5 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29955,7 +33193,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 295.91 247.65 0)
+			(at 317.5 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31043,17 +34281,17 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
-		(at 306.07 228.6 0)
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R")
+		(at 327.66 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fe62c4cb-7df3-43fd-b084-2afb53bcd517")
-		(property "Reference" "H3"
-			(at 314.96 227.33 0)
+		(uuid "fd6455ce-dd82-47d9-85d8-68c75d16e2ce")
+		(property "Reference" "H2"
+			(at 336.55 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31062,18 +34300,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 314.96 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 328.93 236.22 0)
+		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 350.52 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31083,8 +34311,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774030151.pdf"
-			(at 328.93 238.76 0)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 350.52 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31094,8 +34322,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Spacer, SMT,  Steel, Swage Round, 5.1mmx3mm, M3 Thread, WA-SMSI Series"
-			(at 306.07 228.6 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf"
+			(at 350.52 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
+			(at 327.66 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31104,7 +34343,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 328.93 241.3 0)
+			(at 350.52 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31114,19 +34353,18 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "9774030151R"
-			(at 328.93 243.84 0)
+		(property "MPN" "9774060151R"
+			(at 336.55 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 328.93 246.38 0)
+			(at 350.52 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31137,7 +34375,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 328.93 248.92 0)
+			(at 350.52 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31148,49 +34386,39 @@
 			)
 		)
 		(pin "1"
-			(uuid "2fbc2f5b-550b-4a1e-963e-403a7c887dc4")
+			(uuid "609ad7ea-9abc-4254-b43e-9ddead0e75d2")
 		)
 		(instances
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
-		(at 306.07 215.9 0)
+		(lib_id "antmicroCapacitors0603:C_10u_25V_0603")
+		(at 15.24 255.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ffe586be-1fe2-4009-bd9f-7ff3fd6554b8")
-		(property "Reference" "H1"
-			(at 314.96 214.63 0)
+		(uuid "fd71ccb6-22b9-49b8-9ddb-408d7868b7ba")
+		(property "Reference" "C17"
+			(at 17.78 251.4536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 314.96 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 328.93 223.52 0)
+		(property "Value" "C_10u_25V_0603"
+			(at 25.4 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31200,8 +34428,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774030151.pdf"
-			(at 328.93 226.06 0)
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+			(at 27.94 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31211,17 +34439,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Spacer, SMT,  Steel, Swage Round, 5.1mmx3mm, M3 Thread, WA-SMSI Series"
-			(at 306.07 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 328.93 228.6 0)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1E106M080AC"
+			(at 30.48 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31231,8 +34450,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "9774030151R"
-			(at 328.93 231.14 0)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0603 [1608 Metric], ± 20%, X5R, C"
+			(at 15.24 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1608X5R1E106M080AC"
+			(at 33.02 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31242,8 +34470,8 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "Antmicro"
-			(at 328.93 233.68 0)
+		(property "Manufacturer" "TDK"
+			(at 35.56 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31254,7 +34482,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 328.93 236.22 0)
+			(at 38.1 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31264,13 +34492,208 @@
 				(hide yes)
 			)
 		)
+		(property "Author" "Antmicro"
+			(at 40.64 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10u"
+			(at 17.78 253.9936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 43.18 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 45.72 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "ece958b5-be06-459c-9286-2c081d27713f")
+			(uuid "6e297c8c-ed9b-4714-8ef1-a219931da862")
+		)
+		(pin "2"
+			(uuid "f0d95afe-89a1-48ee-9c0c-350bef97b864")
 		)
 		(instances
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
-					(reference "H1")
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 24.13 271.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff499a2d-676f-49a6-918b-35b229979570")
+		(property "Reference" "C20"
+			(at 26.67 267.9636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 34.29 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 36.83 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 39.37 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 24.13 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 41.91 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 44.45 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 46.99 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 49.53 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 26.67 270.5036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 52.07 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 54.61 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7aba873-0a69-4604-a906-822a3c348521")
+		)
+		(pin "2"
+			(uuid "38105dc0-32e0-43ba-9c16-bca412215aea")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "C20")
 					(unit 1)
 				)
 			)
