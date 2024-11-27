@@ -12,7 +12,7 @@
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
-		(symbol "Capacitors0402:C_100n_0402"
+		(symbol "antmicroCapacitors0402:C_100n_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -218,7 +218,7 @@
 				)
 			)
 		)
-		(symbol "Capacitors0402:C_220n_0402"
+		(symbol "antmicroCapacitors0402:C_220n_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -424,7 +424,7 @@
 				)
 			)
 		)
-		(symbol "Capacitors0402:C_22u_0402"
+		(symbol "antmicroCapacitors0402:C_22u_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -630,7 +630,7 @@
 				)
 			)
 		)
-		(symbol "Capacitors0603:C_10u_25V_0603"
+		(symbol "antmicroCapacitors0603:C_10u_25V_0603"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -836,7 +836,7 @@
 				)
 			)
 		)
-		(symbol "DCDCConverters:AP62301_TSOT"
+		(symbol "antmicroDCDCConverters:AP62301_TSOT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1066,7 +1066,7 @@
 				)
 			)
 		)
-		(symbol "FCCConnectors:Conn_FFC_WE_68715014022"
+		(symbol "antmicroFCCConnectors:Conn_FFC_WE_68715014022"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2674,7 +2674,7 @@
 				)
 			)
 		)
-		(symbol "FixedInductors:L_3u3_3.1A_Bourns-SRP3212A"
+		(symbol "antmicroFixedInductors:L_3u3_3.1A_Bourns-SRP3212A"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2916,7 +2916,7 @@
 				)
 			)
 		)
-		(symbol "LEDIndicationDiscrete:LED_G_0603_LTST-C190GKT"
+		(symbol "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -3149,7 +3149,7 @@
 				)
 			)
 		)
-		(symbol "MechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R"
+		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3300,7 +3300,7 @@
 				)
 			)
 		)
-		(symbol "PMICPowerDistributionSwitchesLoadDrivers:TPS2117DRLR"
+		(symbol "antmicroPMICPowerDistributionSwitchesLoadDrivers:TPS2117DRLR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3575,7 +3575,7 @@
 				)
 			)
 		)
-		(symbol "Resistors0402:R_0R_0402"
+		(symbol "antmicroResistors0402:R_0R_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -3769,7 +3769,7 @@
 				)
 			)
 		)
-		(symbol "Resistors0402:R_10k_0402"
+		(symbol "antmicroResistors0402:R_10k_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -3952,7 +3952,7 @@
 				)
 			)
 		)
-		(symbol "Resistors0402:R_12k_0402"
+		(symbol "antmicroResistors0402:R_12k_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4135,7 +4135,7 @@
 				)
 			)
 		)
-		(symbol "Resistors0402:R_200R_0402"
+		(symbol "antmicroResistors0402:R_200R_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4318,7 +4318,7 @@
 				)
 			)
 		)
-		(symbol "Resistors0402:R_31k6_0402"
+		(symbol "antmicroResistors0402:R_31k6_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4501,7 +4501,7 @@
 				)
 			)
 		)
-		(symbol "Resistors0402:R_470R_0402"
+		(symbol "antmicroResistors0402:R_470R_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4684,7 +4684,7 @@
 				)
 			)
 		)
-		(symbol "Resistors0603:R_0R_22.4A_0603"
+		(symbol "antmicroResistors0603:R_0R_22.4A_0603"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4876,7 +4876,7 @@
 				)
 			)
 		)
-		(symbol "TestPoints:TP_1.5mm_SMD"
+		(symbol "antmicroTestPoints:TP_1.5mm_SMD"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom no)
@@ -5014,7 +5014,7 @@
 				)
 			)
 		)
-		(symbol "power:+3V3"
+		(symbol "antmicropower:+3V3"
 			(power)
 			(pin_numbers hide)
 			(pin_names hide)
@@ -5154,7 +5154,7 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
+		(symbol "antmicropower:+5V"
 			(power)
 			(pin_numbers hide)
 			(pin_names hide)
@@ -5292,7 +5292,7 @@
 				)
 			)
 		)
-		(symbol "power:GND"
+		(symbol "antmicropower:GND"
 			(power)
 			(pin_numbers hide)
 			(pin_names hide)
@@ -5406,7 +5406,7 @@
 				)
 			)
 		)
-		(symbol "power:PWR_FLAG"
+		(symbol "antmicropower:PWR_FLAG"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -12312,7 +12312,7 @@
 		(uuid "fa46ca43-f2c1-41bc-9053-6221f109b3f2")
 	)
 	(symbol
-		(lib_id "MechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
 		(at 356.87 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12436,7 +12436,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12593,7 +12593,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 269.24 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12688,7 +12688,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "antmicropower:PWR_FLAG")
 		(at 109.22 243.84 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12753,7 +12753,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 78.74 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12848,7 +12848,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "antmicropower:+5V")
 		(at 67.31 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12942,7 +12942,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 111.76 90.17 0)
 		(mirror y)
 		(unit 1)
@@ -13056,7 +13056,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 129.54 241.3 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13216,7 +13216,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors0402:C_22u_0402")
+		(lib_id "antmicroCapacitors0402:C_22u_0402")
 		(at 194.31 250.19 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13367,7 +13367,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 64.77 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13461,7 +13461,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 264.16 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13555,7 +13555,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 245.11 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13667,7 +13667,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "antmicropower:PWR_FLAG")
 		(at 354.33 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13732,7 +13732,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 298.45 175.26 0)
 		(mirror y)
 		(unit 1)
@@ -13829,7 +13829,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 166.37 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13941,7 +13941,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_470R_0402")
+		(lib_id "antmicroResistors0402:R_470R_0402")
 		(at 243.84 226.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14082,7 +14082,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 194.31 93.98 0)
 		(mirror y)
 		(unit 1)
@@ -14195,7 +14195,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "antmicropower:PWR_FLAG")
 		(at 207.01 233.68 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14260,7 +14260,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "antmicropower:+5V")
 		(at 120.65 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14354,7 +14354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "antmicropower:+5V")
 		(at 243.84 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14449,7 +14449,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
 		(at 356.87 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14573,7 +14573,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 245.11 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14685,7 +14685,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_200R_0402")
+		(lib_id "antmicroResistors0402:R_200R_0402")
 		(at 264.16 226.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14826,7 +14826,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14983,7 +14983,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_200R_0402")
+		(lib_id "antmicroResistors0402:R_200R_0402")
 		(at 264.16 251.46 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15124,7 +15124,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 142.24 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15281,7 +15281,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 337.82 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15376,7 +15376,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 194.31 99.06 0)
 		(mirror y)
 		(unit 1)
@@ -15489,7 +15489,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 266.7 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15603,7 +15603,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FCCConnectors:Conn_FFC_WE_68715014022")
+		(lib_id "antmicroFCCConnectors:Conn_FFC_WE_68715014022")
 		(at 372.11 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15873,7 +15873,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 245.11 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15985,7 +15985,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 64.77 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16079,7 +16079,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_10k_0402")
+		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 137.16 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16225,7 +16225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_31k6_0402")
+		(lib_id "antmicroResistors0402:R_31k6_0402")
 		(at 176.53 240.03 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16366,7 +16366,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 243.84 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16460,7 +16460,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 245.11 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16572,7 +16572,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors0402:C_100n_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 337.82 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16723,7 +16723,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
+		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
 		(at 243.84 219.71 270)
 		(mirror x)
 		(unit 1)
@@ -16864,7 +16864,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
 		(at 356.87 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16988,7 +16988,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_10k_0402")
+		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 137.16 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17126,7 +17126,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 88.9 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17221,7 +17221,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PMICPowerDistributionSwitchesLoadDrivers:TPS2117DRLR")
+		(lib_id "antmicroPMICPowerDistributionSwitchesLoadDrivers:TPS2117DRLR")
 		(at 44.45 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17357,7 +17357,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 111.76 110.49 0)
 		(mirror y)
 		(unit 1)
@@ -17471,7 +17471,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17628,7 +17628,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 194.31 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17722,7 +17722,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 246.38 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17836,7 +17836,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_12k_0402")
+		(lib_id "antmicroResistors0402:R_12k_0402")
 		(at 156.21 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17977,7 +17977,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "antmicropower:+3V3")
 		(at 78.74 167.64 0)
 		(mirror y)
 		(unit 1)
@@ -18072,7 +18072,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "antmicropower:+3V3")
 		(at 71.12 161.29 0)
 		(mirror y)
 		(unit 1)
@@ -18167,7 +18167,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors0402:C_100n_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 88.9 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18318,7 +18318,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18475,7 +18475,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 142.24 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18632,7 +18632,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18789,7 +18789,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_470R_0402")
+		(lib_id "antmicroResistors0402:R_470R_0402")
 		(at 243.84 251.46 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18930,7 +18930,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 347.98 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19025,7 +19025,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_10k_0402")
+		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 137.16 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19171,7 +19171,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 245.11 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19283,7 +19283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19440,7 +19440,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PMICPowerDistributionSwitchesLoadDrivers:TPS2117DRLR")
+		(lib_id "antmicroPMICPowerDistributionSwitchesLoadDrivers:TPS2117DRLR")
 		(at 44.45 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19576,7 +19576,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 365.76 176.53 0)
 		(mirror y)
 		(unit 1)
@@ -19673,7 +19673,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "antmicropower:PWR_FLAG")
 		(at 287.02 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19738,7 +19738,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors0402:C_220n_0402")
+		(lib_id "antmicroCapacitors0402:C_220n_0402")
 		(at 158.75 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19886,7 +19886,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_10k_0402")
+		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 176.53 250.19 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20027,7 +20027,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_10k_0402")
+		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 137.16 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20165,7 +20165,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20322,7 +20322,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "antmicropower:+3V3")
 		(at 264.16 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20417,7 +20417,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 264.16 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20511,7 +20511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
+		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
 		(at 243.84 270.51 270)
 		(mirror x)
 		(unit 1)
@@ -20652,7 +20652,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_10k_0402")
+		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 137.16 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20798,7 +20798,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
+		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
 		(at 264.16 245.11 270)
 		(mirror x)
 		(unit 1)
@@ -20939,7 +20939,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 243.84 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21033,7 +21033,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_470R_0402")
+		(lib_id "antmicroResistors0402:R_470R_0402")
 		(at 243.84 276.86 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21174,7 +21174,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
 		(at 356.87 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21298,7 +21298,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_10k_0402")
+		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 137.16 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21444,7 +21444,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0603:R_0R_22.4A_0603")
+		(lib_id "antmicroResistors0603:R_0R_22.4A_0603")
 		(at 73.66 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21598,7 +21598,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors0402:C_100n_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 347.98 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21749,7 +21749,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors0402:C_22u_0402")
+		(lib_id "antmicroCapacitors0402:C_22u_0402")
 		(at 185.42 250.19 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21900,7 +21900,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 142.24 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22057,7 +22057,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 245.11 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22169,7 +22169,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors0402:C_100n_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 78.74 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22320,7 +22320,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 194.31 88.9 0)
 		(mirror y)
 		(unit 1)
@@ -22433,7 +22433,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FCCConnectors:Conn_FFC_WE_68715014022")
+		(lib_id "antmicroFCCConnectors:Conn_FFC_WE_68715014022")
 		(at 53.34 44.45 0)
 		(mirror y)
 		(unit 1)
@@ -22703,7 +22703,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 245.11 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22815,7 +22815,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_200R_0402")
+		(lib_id "antmicroResistors0402:R_200R_0402")
 		(at 264.16 276.86 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22956,7 +22956,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
+		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
 		(at 243.84 245.11 270)
 		(mirror x)
 		(unit 1)
@@ -23097,7 +23097,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 135.89 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23191,7 +23191,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 246.38 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23305,7 +23305,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
+		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
 		(at 264.16 270.51 270)
 		(mirror x)
 		(unit 1)
@@ -23446,7 +23446,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
 		(at 306.07 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23563,7 +23563,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_10k_0402")
+		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 137.16 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23709,7 +23709,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 245.11 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23821,7 +23821,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "antmicropower:+5V")
 		(at 111.76 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23915,7 +23915,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_12k_0402")
+		(lib_id "antmicroResistors0402:R_12k_0402")
 		(at 156.21 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24056,7 +24056,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "antmicropower:+5V")
 		(at 88.9 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24150,7 +24150,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 156.21 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24245,7 +24245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24402,7 +24402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 156.21 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24497,7 +24497,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "antmicropower:PWR_FLAG")
 		(at 287.02 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24562,7 +24562,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FCCConnectors:Conn_FFC_WE_68715014022")
+		(lib_id "antmicroFCCConnectors:Conn_FFC_WE_68715014022")
 		(at 304.8 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24832,7 +24832,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 142.24 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24989,7 +24989,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25146,7 +25146,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 111.76 130.81 0)
 		(mirror y)
 		(unit 1)
@@ -25260,7 +25260,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "antmicropower:+3V3")
 		(at 204.47 231.14 0)
 		(mirror y)
 		(unit 1)
@@ -25355,7 +25355,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 264.16 278.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25449,7 +25449,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 142.24 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25606,7 +25606,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 279.4 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25701,7 +25701,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25858,7 +25858,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "antmicropower:+3V3")
 		(at 82.55 250.19 0)
 		(mirror y)
 		(unit 1)
@@ -25953,7 +25953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
 		(at 306.07 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26070,7 +26070,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 281.94 224.79 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26184,7 +26184,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 111.76 69.85 0)
 		(mirror y)
 		(unit 1)
@@ -26298,7 +26298,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26455,7 +26455,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 142.24 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26612,7 +26612,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 355.6 237.49 0)
 		(mirror y)
 		(unit 1)
@@ -26708,7 +26708,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 142.24 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26865,7 +26865,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 266.7 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26979,7 +26979,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 281.94 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27073,7 +27073,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FixedInductors:L_3u3_3.1A_Bourns-SRP3212A")
+		(lib_id "antmicroFixedInductors:L_3u3_3.1A_Bourns-SRP3212A")
 		(at 168.91 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27234,7 +27234,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_10k_0402")
+		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 137.16 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27380,7 +27380,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 266.7 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27494,7 +27494,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27651,7 +27651,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "antmicropower:PWR_FLAG")
 		(at 354.33 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27716,7 +27716,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 111.76 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27810,7 +27810,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 35.56 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27904,7 +27904,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 59.69 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28000,7 +28000,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 129.54 248.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28094,7 +28094,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors0402:C_100n_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 269.24 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28245,7 +28245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 166.37 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28357,7 +28357,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors0402:C_100n_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 279.4 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28508,7 +28508,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
+		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
 		(at 264.16 219.71 270)
 		(mirror x)
 		(unit 1)
@@ -28649,7 +28649,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28806,7 +28806,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 142.24 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28963,7 +28963,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 166.37 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29075,7 +29075,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 176.53 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29169,7 +29169,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0603:R_0R_22.4A_0603")
+		(lib_id "antmicroResistors0603:R_0R_22.4A_0603")
 		(at 195.58 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29323,7 +29323,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 35.56 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29417,7 +29417,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors0603:C_10u_25V_0603")
+		(lib_id "antmicroCapacitors0603:C_10u_25V_0603")
 		(at 111.76 241.3 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29568,7 +29568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 128.27 238.76 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29725,7 +29725,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29882,7 +29882,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 304.8 237.49 0)
 		(mirror y)
 		(unit 1)
@@ -29978,7 +29978,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DCDCConverters:AP62301_TSOT")
+		(lib_id "antmicroDCDCConverters:AP62301_TSOT")
 		(at 137.16 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30108,7 +30108,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 194.31 83.82 0)
 		(mirror y)
 		(unit 1)
@@ -30221,7 +30221,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 166.37 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30333,7 +30333,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 185.42 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30427,7 +30427,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 243.84 278.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30521,7 +30521,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "antmicropower:+5V")
 		(at 71.12 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30615,7 +30615,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TP_1.5mm_SMD")
+		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 246.38 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30729,7 +30729,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30886,7 +30886,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors0402:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 220.98 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31043,7 +31043,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
 		(at 306.07 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31160,7 +31160,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
 		(at 306.07 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
