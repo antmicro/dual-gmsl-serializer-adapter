@@ -1,4 +1,4 @@
-# Dual camera to GMSL serializer CSI adapter
+# Dual Camera to GMSL Serializer CSI adapter
 
 Copyright (c) 2024 [Antmicro](https://www.antmicro.com)
 
