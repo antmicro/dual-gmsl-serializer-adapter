@@ -1,0 +1,148 @@
+(footprint "ov5640_model"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 9.23 -4.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "130268c0-96b3-4469-9af6-c6b0e226a23f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ov5640_model"
+		(at 9.23 -2.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f0b3819d-fa99-41ac-951b-791baa198351")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "991b958d-32b0-4c76-8a1a-20a7881071d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16ddf704-8c1b-4f83-9535-97b20fb9d785")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b215cf25-7acb-46e3-9293-9ebb4e7a8f3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 0)
+		(end 100 25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "dc8280a4-90d9-439a-a1f8-382c2ac85696")
+	)
+	(fp_circle
+		(center 3 3)
+		(end 5.65 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "aceb9761-e5b9-4aef-849f-9230901d247f")
+	)
+	(fp_circle
+		(center 3 22)
+		(end 5.65 22)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "f1aee4c8-5201-4644-95db-2cf6c068c040")
+	)
+	(fp_circle
+		(center 97 3)
+		(end 99.65 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "0d006520-c03c-4614-b530-3dc9b372ae8a")
+	)
+	(fp_circle
+		(center 97 22)
+		(end 99.65 22)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "f02a6d8f-3df2-45ad-9586-c7915d6762a7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 9.23 -1.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5afd831c-1f14-4ffb-86d0-c02fe3451cba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "/home/smag/projects/antmicro-ov5640-dual-camera-board-hw/OV5640-dual-camera-board.step"
+		(offset
+			(xyz -30 10 -4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
+		)
+	)
+)
