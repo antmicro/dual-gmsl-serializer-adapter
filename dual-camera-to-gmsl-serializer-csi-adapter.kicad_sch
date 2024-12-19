@@ -20269,7 +20269,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:oshw_logo")
-		(at 74.93 280.67 0)
+		(at 140.97 279.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -20278,7 +20278,7 @@
 		(fields_autoplaced yes)
 		(uuid "3618a3e8-c1d0-417d-aaa5-548b26f5c911")
 		(property "Reference" "N2"
-			(at 81.28 278.6862 0)
+			(at 147.32 277.4162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20288,7 +20288,7 @@
 			)
 		)
 		(property "Value" "oshw_logo"
-			(at 81.28 281.2262 0)
+			(at 147.32 279.9562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20298,7 +20298,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:oshw-logo"
-			(at 90.17 290.83 0)
+			(at 156.21 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20309,7 +20309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 293.37 0)
+			(at 156.21 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20320,7 +20320,7 @@
 			)
 		)
 		(property "Description" "Mechanical part"
-			(at 74.93 280.67 0)
+			(at 140.97 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20329,7 +20329,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 90.17 295.91 0)
+			(at 156.21 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20340,7 +20340,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 90.17 298.45 0)
+			(at 156.21 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20351,7 +20351,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 74.93 280.67 0)
+			(at 140.97 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20359,7 +20359,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 90.17 300.99 0)
+			(at 156.21 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20829,7 +20829,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:antmicro_logo")
-		(at 74.93 271.78 0)
+		(at 105.41 279.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -20838,7 +20838,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a11bd9b-a156-4216-94a1-39b41c87e2ae")
 		(property "Reference" "N1"
-			(at 81.28 269.7962 0)
+			(at 111.76 277.4162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20848,7 +20848,7 @@
 			)
 		)
 		(property "Value" "antmicro_logo"
-			(at 81.28 272.3362 0)
+			(at 111.76 279.9562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20858,7 +20858,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:antmicro-logo_scaled_12mm"
-			(at 90.17 281.94 0)
+			(at 120.65 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20869,7 +20869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 284.48 0)
+			(at 120.65 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20880,7 +20880,7 @@
 			)
 		)
 		(property "Description" "Mechanical part"
-			(at 74.93 271.78 0)
+			(at 105.41 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20889,7 +20889,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 74.93 271.78 0)
+			(at 105.41 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20897,7 +20897,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 90.17 292.1 0)
+			(at 120.65 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20908,7 +20908,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 90.17 287.02 0)
+			(at 120.65 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20919,7 +20919,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 90.17 289.56 0)
+			(at 120.65 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22226,7 +22226,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 337.82 177.8 90)
+		(at 269.24 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22235,7 +22235,7 @@
 		(fields_autoplaced yes)
 		(uuid "45760b7a-32f2-4dc6-bcdd-de3eb920d097")
 		(property "Reference" "C9"
-			(at 340.36 173.9836 90)
+			(at 271.78 173.9836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22245,7 +22245,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 347.98 157.48 0)
+			(at 279.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22256,7 +22256,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 350.52 157.48 0)
+			(at 281.94 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22267,7 +22267,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 353.06 157.48 0)
+			(at 284.48 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22278,7 +22278,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-			(at 337.82 177.8 0)
+			(at 269.24 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22287,7 +22287,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 355.6 157.48 0)
+			(at 287.02 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22298,7 +22298,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 358.14 157.48 0)
+			(at 289.56 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22309,7 +22309,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 360.68 157.48 0)
+			(at 292.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22320,7 +22320,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 363.22 157.48 0)
+			(at 294.64 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22331,7 +22331,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 340.36 176.5236 90)
+			(at 271.78 176.5236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22341,7 +22341,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 365.76 157.48 0)
+			(at 297.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22351,7 +22351,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 368.3 157.48 0)
+			(at 299.72 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27975,7 +27975,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 347.98 177.8 90)
+		(at 279.4 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27984,7 +27984,7 @@
 		(fields_autoplaced yes)
 		(uuid "83be4b4b-f9d6-4f17-a8a2-2d2300f7ec70")
 		(property "Reference" "C10"
-			(at 350.52 173.9836 90)
+			(at 281.94 173.9836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27994,7 +27994,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 358.14 157.48 0)
+			(at 289.56 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28005,7 +28005,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 360.68 157.48 0)
+			(at 292.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28016,7 +28016,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 363.22 157.48 0)
+			(at 294.64 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28027,7 +28027,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-			(at 347.98 177.8 0)
+			(at 279.4 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28036,7 +28036,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 365.76 157.48 0)
+			(at 297.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28047,7 +28047,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 368.3 157.48 0)
+			(at 299.72 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28058,7 +28058,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 370.84 157.48 0)
+			(at 302.26 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28069,7 +28069,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 373.38 157.48 0)
+			(at 304.8 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28080,7 +28080,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 350.52 176.5236 90)
+			(at 281.94 176.5236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28090,7 +28090,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 375.92 157.48 0)
+			(at 307.34 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28100,7 +28100,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 378.46 157.48 0)
+			(at 309.88 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35719,7 +35719,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 269.24 177.8 90)
+		(at 337.82 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35728,7 +35728,7 @@
 		(fields_autoplaced yes)
 		(uuid "da8431e2-0d08-4297-8e2d-c48be0ca35db")
 		(property "Reference" "C7"
-			(at 271.78 173.9836 90)
+			(at 340.36 173.9836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35738,7 +35738,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 279.4 157.48 0)
+			(at 347.98 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35749,7 +35749,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 281.94 157.48 0)
+			(at 350.52 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35760,7 +35760,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 284.48 157.48 0)
+			(at 353.06 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35771,7 +35771,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-			(at 269.24 177.8 0)
+			(at 337.82 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35780,7 +35780,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 287.02 157.48 0)
+			(at 355.6 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35791,7 +35791,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 289.56 157.48 0)
+			(at 358.14 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35802,7 +35802,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 292.1 157.48 0)
+			(at 360.68 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35813,7 +35813,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 294.64 157.48 0)
+			(at 363.22 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35824,7 +35824,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 271.78 176.5236 90)
+			(at 340.36 176.5236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35834,7 +35834,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 297.18 157.48 0)
+			(at 365.76 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35844,7 +35844,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 299.72 157.48 0)
+			(at 368.3 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36133,7 +36133,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 279.4 177.8 90)
+		(at 347.98 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36142,7 +36142,7 @@
 		(fields_autoplaced yes)
 		(uuid "db816785-4181-4f1f-94d8-63a5072bb14e")
 		(property "Reference" "C8"
-			(at 281.94 173.9836 90)
+			(at 350.52 173.9836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36152,7 +36152,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 289.56 157.48 0)
+			(at 358.14 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36163,7 +36163,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 292.1 157.48 0)
+			(at 360.68 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36174,7 +36174,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 294.64 157.48 0)
+			(at 363.22 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36185,7 +36185,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-			(at 279.4 177.8 0)
+			(at 347.98 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36194,7 +36194,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 297.18 157.48 0)
+			(at 365.76 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36205,7 +36205,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 299.72 157.48 0)
+			(at 368.3 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36216,7 +36216,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 302.26 157.48 0)
+			(at 370.84 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36227,7 +36227,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 304.8 157.48 0)
+			(at 373.38 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36238,7 +36238,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 281.94 176.5236 90)
+			(at 350.52 176.5236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36248,7 +36248,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 307.34 157.48 0)
+			(at 375.92 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36258,7 +36258,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 309.88 157.48 0)
+			(at 378.46 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
