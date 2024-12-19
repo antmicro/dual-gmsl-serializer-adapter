@@ -5796,12 +5796,6 @@
 		(uuid "43093c93-b2ba-41d8-b26c-7bb081638f8b")
 	)
 	(junction
-		(at 228.6 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "432ab238-dc54-4ec9-bd40-e7168f685909")
-	)
-	(junction
 		(at 35.56 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9743,7 +9737,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 83.82) (xy 245.11 83.82)
+			(xy 236.22 97.79) (xy 252.73 97.79)
 		)
 		(stroke
 			(width 0)
@@ -11879,17 +11873,6 @@
 		)
 		(uuid "9202057c-1c68-405c-923d-19715c9fe1be")
 	)
-	(text "TODO:\nDefault I2C-CSI naming/mapping to CSI is reversed"
-		(exclude_from_sim no)
-		(at 65.024 135.636 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9bf8cda7-4d43-4d2e-b196-567781e0d70c")
-	)
 	(text "GMSL Serializer Board\nConnector 1"
 		(exclude_from_sim no)
 		(at 278.892 31.75 0)
@@ -12581,7 +12564,7 @@
 		(uuid "93b80d86-33bf-4a63-9f3c-a1915a160f8b")
 	)
 	(label "SCL_CAM1"
-		(at 77.47 148.59 180)
+		(at 77.47 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12669,7 +12652,7 @@
 		(uuid "a9b41cb7-8f71-4faa-9211-593a0b54908c")
 	)
 	(label "SDA_CAM1"
-		(at 77.47 146.05 180)
+		(at 77.47 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12977,7 +12960,7 @@
 		(uuid "d76769ac-beb2-4b96-a6cf-c1e297aa308f")
 	)
 	(label "SDA_CAM0"
-		(at 77.47 140.97 180)
+		(at 77.47 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13087,7 +13070,7 @@
 		(uuid "eb3c692d-be0d-49dd-992d-9e38464a59cc")
 	)
 	(label "SCL_CAM0"
-		(at 77.47 143.51 180)
+		(at 77.47 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13824,14 +13807,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 139.7 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "4fb32ea1-573a-4119-a6d4-d7b5df5bce6f")
 		)
@@ -14377,14 +14352,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 139.7 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "0e465c70-4dc1-49a7-82cc-c2d605ed4106")
 		)
@@ -14534,15 +14501,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 129.54 245.872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "2"
@@ -19193,14 +19151,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 139.7 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "a14df4df-af05-479f-a84a-03c6fba0a50b")
 		)
@@ -19810,14 +19760,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 218.44 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -20612,14 +20554,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 218.44 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "b66274ea-d5c7-4c36-9fa1-f6b964c88d04")
 		)
@@ -21319,14 +21253,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 139.7 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "87283cba-df2f-4b20-8638-e1dfa68ee35f")
 		)
@@ -21703,14 +21629,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 218.44 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -22687,9 +22605,9 @@
 		(at 142.24 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "72329bc9-1dfa-4a1d-a21b-80a922938d64")
 		(property "Reference" "R21"
 			(at 137.668 143.764 0)
@@ -22814,14 +22732,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 142.24 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -23922,14 +23832,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 76.2 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "20315910-29e5-4f97-ac51-95f65573ec0b")
 		)
@@ -24522,14 +24424,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 139.7 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "8a11c6f4-df6c-4423-97f6-2ed2bb8cc3e1")
 		)
@@ -24677,14 +24571,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 139.7 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -25827,14 +25713,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 139.7 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -27195,14 +27073,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 218.44 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "e2743590-6b42-4452-b673-7daeca26ced6")
 		)
@@ -27558,9 +27428,9 @@
 		(at 142.24 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a5ecedba-a1c6-4a84-9cc0-57e775e814e6")
 		(property "Reference" "R11"
 			(at 137.668 92.964 0)
@@ -27685,14 +27555,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 142.24 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -27844,14 +27706,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 139.7 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "9af394ec-1007-4e87-bc3a-086f0f255cc4")
 		)
@@ -27999,14 +27853,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 218.44 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -28461,14 +28307,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 139.7 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "ce4c5a1d-0d68-4606-9197-13e65c383a2e")
 		)
@@ -28804,14 +28642,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 218.44 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -29437,14 +29267,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 218.44 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "33f74179-9216-4fe5-9ca0-3b0d16174c13")
 		)
@@ -29592,14 +29414,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 139.7 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -30103,14 +29917,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 139.7 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -30978,14 +30784,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 218.44 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -32437,14 +32235,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 218.44 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "e1c77f82-1a7e-4f6c-844d-fd15ed992063")
 		)
@@ -32592,14 +32382,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 139.7 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -33511,14 +33293,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 218.44 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -34517,14 +34291,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 218.44 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "a670f413-a4c7-4aa4-998c-2cefa99dae9f")
 		)
@@ -34672,14 +34438,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 218.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
