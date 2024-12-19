@@ -5880,6 +5880,12 @@
 		(uuid "6db89c48-8fd3-4c87-9a0b-233c0f924712")
 	)
 	(junction
+		(at 228.6 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72614c40-5a75-4f82-a213-405e1926acf8")
+	)
+	(junction
 		(at 204.47 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9737,7 +9743,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 97.79) (xy 252.73 97.79)
+			(xy 228.6 83.82) (xy 245.11 83.82)
 		)
 		(stroke
 			(width 0)
@@ -9787,7 +9793,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 125.73) (xy 273.05 125.73)
+			(xy 260.35 125.73) (xy 273.05 125.73)
 		)
 		(stroke
 			(width 0)
@@ -10057,7 +10063,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 127) (xy 340.36 127)
+			(xy 326.39 127) (xy 340.36 127)
 		)
 		(stroke
 			(width 0)
@@ -11765,16 +11771,6 @@
 		)
 		(uuid "ffe0ce8a-555b-4728-9282-ce7800695419")
 	)
-	(text "TODO:\nGPIO 4 named the same for both serializers\nIt should probably be named differently"
-		(exclude_from_sim no)
-		(at 335.788 115.316 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "057712f7-4c58-486b-b045-60cbd19ad270")
-	)
 	(text "CAM1"
 		(exclude_from_sim no)
 		(at 85.09 148.59 90)
@@ -12035,7 +12031,7 @@
 		)
 		(uuid "1f1bd75f-a709-4aee-9a26-1991d61f6b2e")
 	)
-	(label "GPIO1_4"
+	(label "GPIO4_CAM1"
 		(at 166.37 69.85 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12145,7 +12141,7 @@
 		)
 		(uuid "5301611a-1972-4e97-baae-947d516e0479")
 	)
-	(label "GPIO1_4"
+	(label "GPIO4_CAM1"
 		(at 347.98 124.46 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12354,7 +12350,7 @@
 		)
 		(uuid "6f2fa4e3-ec39-4ce5-a204-b5f6006f8660")
 	)
-	(label "GPIO0_4"
+	(label "GPIO2_CAM0"
 		(at 280.67 123.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12552,7 +12548,7 @@
 		)
 		(uuid "93ae710f-07e3-44c5-acaf-6ecc179f15e8")
 	)
-	(label "GPIO0_4"
+	(label "GPIO2_CAM0"
 		(at 166.37 110.49 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12618,7 +12614,7 @@
 		)
 		(uuid "a85d2055-e5c7-475e-84ce-0bf0029d28a1")
 	)
-	(label "GPIO0_3"
+	(label "GPIO1_CAM0"
 		(at 166.37 130.81 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12695,8 +12691,8 @@
 		)
 		(uuid "b00321cc-7c55-49c0-aa05-fdf26fba75a8")
 	)
-	(label "GPIO0_3"
-		(at 262.89 125.73 0)
+	(label "GPIO1_CAM0"
+		(at 260.35 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12750,8 +12746,8 @@
 		)
 		(uuid "be366f8c-71d3-49bc-8d1c-f75af3a14309")
 	)
-	(label "GPIO1_3"
-		(at 330.2 127 0)
+	(label "GPIO3_CAM1"
+		(at 326.39 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13157,7 +13153,7 @@
 		)
 		(uuid "f809c157-9e20-4ea5-ac55-ef7545deb805")
 	)
-	(label "GPIO1_3"
+	(label "GPIO3_CAM1"
 		(at 166.37 90.17 180)
 		(fields_autoplaced yes)
 		(effects
