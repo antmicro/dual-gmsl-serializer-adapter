@@ -7352,6 +7352,16 @@
 		)
 		(uuid "1984561f-550a-48f7-9fdc-3ec5df8468f6")
 	)
+	(polyline
+		(pts
+			(xy 86.36 143.51) (xy 86.36 148.59)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "198907f0-4a19-4f8d-8ed7-d09c55e651aa")
+	)
 	(wire
 		(pts
 			(xy 243.84 212.09) (xy 243.84 214.63)
@@ -7441,6 +7451,16 @@
 			(type default)
 		)
 		(uuid "1dabfe07-b7cf-4d8e-94d8-ca81785924b2")
+	)
+	(polyline
+		(pts
+			(xy 82.55 138.43) (xy 82.55 143.51)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "1db18a85-cce1-400a-a23b-cf4548abbe98")
 	)
 	(bus
 		(pts
@@ -7971,6 +7991,16 @@
 			(type default)
 		)
 		(uuid "3244c125-50c9-4e48-a86e-16a51f1d61b4")
+	)
+	(polyline
+		(pts
+			(xy 40.64 86.36) (xy 40.64 105.41)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "325c590c-7791-4f3d-80cd-67052153fca0")
 	)
 	(bus
 		(pts
@@ -8811,6 +8841,16 @@
 			(type default)
 		)
 		(uuid "5fb42a93-43ea-42a6-8388-b74f88f403f4")
+	)
+	(polyline
+		(pts
+			(xy 40.64 43.18) (xy 40.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "6000c9e8-bd49-409c-9b43-fd4e8c04dc54")
 	)
 	(wire
 		(pts
@@ -11702,6 +11742,27 @@
 		)
 		(uuid "ffe0ce8a-555b-4728-9282-ce7800695419")
 	)
+	(text "TODO:\nGPIO 4 named the same for both serializers\nIt should probably be named differently"
+		(exclude_from_sim no)
+		(at 335.788 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "057712f7-4c58-486b-b045-60cbd19ad270")
+	)
+	(text "CAM1"
+		(exclude_from_sim no)
+		(at 85.09 148.59 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eb8c9cd-785a-434c-9b40-10184d3df7df")
+	)
 	(text "Power Status LEDs"
 		(exclude_from_sim no)
 		(at 241.808 201.168 0)
@@ -11714,6 +11775,28 @@
 			(justify left bottom)
 		)
 		(uuid "1e1b9e2e-0d76-455a-8f3a-562e6aed1e6c")
+	)
+	(text "To camera 1"
+		(exclude_from_sim no)
+		(at 39.37 104.14 90)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fb38a88-4a37-4205-8931-b8617b7862bb")
+	)
+	(text "TODO:\nAdd QWIC connectors for I2C exposed from every serializer\nThis will allow to add more sensors and stream sensor data over GMSL"
+		(exclude_from_sim no)
+		(at 188.722 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a67b470-4a57-4f7d-9ebe-7977a522ea4e")
 	)
 	(text "Power Arbiters"
 		(exclude_from_sim no)
@@ -11767,6 +11850,17 @@
 		)
 		(uuid "9202057c-1c68-405c-923d-19715c9fe1be")
 	)
+	(text "TODO:\nDefault I2C-CSI naming/mapping to CSI is reversed"
+		(exclude_from_sim no)
+		(at 65.024 135.636 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bf8cda7-4d43-4d2e-b196-567781e0d70c")
+	)
 	(text "GMSL Serializer Board\nConnector 1"
 		(exclude_from_sim no)
 		(at 278.892 31.75 0)
@@ -11793,6 +11887,28 @@
 		)
 		(uuid "c8fdb96f-c479-44dc-936f-d70c80b871b0")
 	)
+	(text "CAM2"
+		(exclude_from_sim no)
+		(at 81.28 143.51 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2caff1b-76ee-40af-9d2a-c4ae4fd7e137")
+	)
+	(text "TODO:\nAdd OSHW and Antmicro logos to the schematics"
+		(exclude_from_sim no)
+		(at 102.87 276.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4e55826-cc9f-4364-af27-608cab1223e3")
+	)
 	(text "GMSL Serializer Board\nConnector 2"
 		(exclude_from_sim no)
 		(at 350.012 31.496 0)
@@ -11818,6 +11934,17 @@
 			(justify left bottom)
 		)
 		(uuid "ed41b946-1fca-4a0f-9166-d2f264d33609")
+	)
+	(text "To camera 2"
+		(exclude_from_sim no)
+		(at 38.608 64.77 90)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left bottom)
+		)
+		(uuid "f78baf8c-4765-48a7-be07-6a91b861c116")
 	)
 	(label "FB_3V3"
 		(at 157.48 243.84 0)
@@ -24982,7 +25109,7 @@
 		(dnp no)
 		(uuid "8eda5d32-0af4-4643-b787-29bbbeaeb359")
 		(property "Reference" "J1"
-			(at 44.45 108.585 0)
+			(at 48.26 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25034,7 +25161,7 @@
 			)
 		)
 		(property "MPN" "68715014022"
-			(at 44.45 111.125 0)
+			(at 58.928 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
