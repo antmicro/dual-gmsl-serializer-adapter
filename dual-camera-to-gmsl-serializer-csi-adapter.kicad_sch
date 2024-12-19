@@ -5670,6 +5670,12 @@
 		(uuid "12cda067-2948-4177-b44b-a674fe408e7f")
 	)
 	(junction
+		(at 326.39 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "154e6d99-6aa1-45c3-9ce7-c3e2ffc32646")
+	)
+	(junction
 		(at 365.76 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5704,6 +5710,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "254f1203-a23e-477e-a77f-71a5bde708ed")
+	)
+	(junction
+		(at 326.39 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25a2eb7a-1281-4322-8510-0e1d3733a52c")
 	)
 	(junction
 		(at 128.27 95.25)
@@ -5850,12 +5862,6 @@
 		(uuid "64c5c020-2614-4537-b032-b7dff9736ba1")
 	)
 	(junction
-		(at 326.39 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "667e12d9-233e-42da-bbd4-2ee6abc3e9e2")
-	)
-	(junction
 		(at 223.52 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5874,10 +5880,10 @@
 		(uuid "6d7a99c3-d2ed-4012-bb26-0d044c4089aa")
 	)
 	(junction
-		(at 326.39 234.95)
+		(at 326.39 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6e9503ff-6aae-4cde-b9b6-d99c92185222")
+		(uuid "6db89c48-8fd3-4c87-9a0b-233c0f924712")
 	)
 	(junction
 		(at 204.47 233.68)
@@ -5958,12 +5964,6 @@
 		(uuid "95cd3278-11aa-4fff-8b57-c9b30b3ac29a")
 	)
 	(junction
-		(at 326.39 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99de5b03-8b7f-4278-bb33-792dc20df7f1")
-	)
-	(junction
 		(at 111.76 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6022,6 +6022,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac3bc021-3cd8-4650-8aed-d5108aa2a130")
+	)
+	(junction
+		(at 326.39 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aedbdbc9-dc63-4ea9-9193-e0e2b8ec5ece")
 	)
 	(junction
 		(at 194.31 233.68)
@@ -6130,6 +6136,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1dbfc63-54d6-4816-8a8d-3763378fb2e9")
+	)
+	(junction
+		(at 326.39 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9098bab-2fe7-4fdf-b592-62d1530a212b")
 	)
 	(junction
 		(at 147.32 115.57)
@@ -6991,7 +7003,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 228.6) (xy 326.39 234.95)
+			(xy 326.39 229.87) (xy 326.39 236.22)
 		)
 		(stroke
 			(width 0)
@@ -7031,7 +7043,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 215.9) (xy 327.66 215.9)
+			(xy 326.39 210.82) (xy 327.66 210.82)
 		)
 		(stroke
 			(width 0)
@@ -7548,6 +7560,16 @@
 			(type default)
 		)
 		(uuid "213681f3-586a-44b6-b653-eb13c1549c30")
+	)
+	(wire
+		(pts
+			(xy 326.39 223.52) (xy 326.39 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215863c6-8477-43a0-9315-c1c3ca0228d6")
 	)
 	(polyline
 		(pts
@@ -8371,7 +8393,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 234.95) (xy 326.39 234.95)
+			(xy 327.66 229.87) (xy 326.39 229.87)
 		)
 		(stroke
 			(width 0)
@@ -8561,6 +8583,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 242.57) (xy 327.66 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e836d26-0cc9-462c-880b-f89cb3cb03c4")
+	)
+	(wire
+		(pts
 			(xy 264.16 212.09) (xy 264.16 214.63)
 		)
 		(stroke
@@ -8688,6 +8720,16 @@
 			(type default)
 		)
 		(uuid "57340c43-8838-476f-9bcc-6e9f2cdc3fea")
+	)
+	(wire
+		(pts
+			(xy 326.39 242.57) (xy 326.39 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576ccc4c-d573-47ea-96fd-5e446ee1e4ae")
 	)
 	(wire
 		(pts
@@ -9031,7 +9073,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 228.6) (xy 326.39 228.6)
+			(xy 327.66 223.52) (xy 326.39 223.52)
 		)
 		(stroke
 			(width 0)
@@ -9721,16 +9763,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 222.25) (xy 326.39 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f79ecdc-1f65-4a3d-9317-7db7e090028e")
-	)
-	(wire
-		(pts
 			(xy 53.34 125.73) (xy 76.2 125.73)
 		)
 		(stroke
@@ -9881,7 +9913,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 215.9) (xy 326.39 222.25)
+			(xy 326.39 210.82) (xy 326.39 217.17)
 		)
 		(stroke
 			(width 0)
@@ -10021,6 +10053,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 236.22) (xy 327.66 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff7ffa7-6f9c-4c66-afeb-2ecced074bdb")
+	)
+	(wire
+		(pts
 			(xy 330.2 127) (xy 340.36 127)
 		)
 		(stroke
@@ -10078,6 +10120,16 @@
 			(type default)
 		)
 		(uuid "a4ea9d0d-f8ff-4fc4-bbcd-7a18bcdbd676")
+	)
+	(wire
+		(pts
+			(xy 326.39 217.17) (xy 326.39 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a511c7c9-d539-49c7-b68e-0e31b6bccd0d")
 	)
 	(wire
 		(pts
@@ -10158,16 +10210,6 @@
 			(type default)
 		)
 		(uuid "a9f8633e-86f5-499d-b912-9a54edf05785")
-	)
-	(wire
-		(pts
-			(xy 326.39 234.95) (xy 326.39 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa87fdb2-818c-4032-b2a0-267ca9c36739")
 	)
 	(wire
 		(pts
@@ -11191,6 +11233,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 236.22) (xy 326.39 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67ce734-316f-4f86-8f5f-81df85fd73d7")
+	)
+	(wire
+		(pts
 			(xy 215.9 93.98) (xy 208.28 93.98)
 		)
 		(stroke
@@ -11681,7 +11733,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 222.25) (xy 326.39 222.25)
+			(xy 327.66 217.17) (xy 326.39 217.17)
 		)
 		(stroke
 			(width 0)
@@ -19511,7 +19563,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R")
-		(at 327.66 228.6 0)
+		(at 327.66 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19520,7 +19572,7 @@
 		(fields_autoplaced yes)
 		(uuid "513ae132-e972-4508-9f1f-aafd66352eef")
 		(property "Reference" "H3"
-			(at 336.55 227.33 0)
+			(at 336.55 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19530,7 +19582,7 @@
 			)
 		)
 		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
-			(at 350.52 233.68 0)
+			(at 350.52 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19541,7 +19593,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R"
-			(at 350.52 236.22 0)
+			(at 350.52 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19552,7 +19604,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf"
-			(at 350.52 238.76 0)
+			(at 350.52 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19563,7 +19615,7 @@
 			)
 		)
 		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
-			(at 327.66 228.6 0)
+			(at 327.66 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19572,7 +19624,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 350.52 241.3 0)
+			(at 350.52 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19583,7 +19635,7 @@
 			)
 		)
 		(property "MPN" "9774060151R"
-			(at 336.55 229.87 0)
+			(at 336.55 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19593,7 +19645,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 350.52 246.38 0)
+			(at 350.52 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19604,7 +19656,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 350.52 248.92 0)
+			(at 350.52 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21291,6 +21343,123 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R")
+		(at 327.66 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "690ebbe6-e396-417e-89e4-deec203d4e07")
+		(property "Reference" "H5"
+			(at 336.55 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 350.52 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 350.52 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf"
+			(at 350.52 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
+			(at 327.66 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 350.52 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774060151R"
+			(at 336.55 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 350.52 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 350.52 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e7deaf8-d155-47f5-a1df-b8ae5f52b11c")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
 		(at 245.11 88.9 0)
 		(unit 1)
@@ -22398,7 +22567,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R")
-		(at 327.66 215.9 0)
+		(at 327.66 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22407,7 +22576,7 @@
 		(fields_autoplaced yes)
 		(uuid "71bf5a90-90a8-43d7-b66a-bb9a8e6c7053")
 		(property "Reference" "H1"
-			(at 336.55 214.63 0)
+			(at 336.55 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22417,7 +22586,7 @@
 			)
 		)
 		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
-			(at 350.52 220.98 0)
+			(at 350.52 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22428,7 +22597,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R"
-			(at 350.52 223.52 0)
+			(at 350.52 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22439,7 +22608,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf"
-			(at 350.52 226.06 0)
+			(at 350.52 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22450,7 +22619,7 @@
 			)
 		)
 		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
-			(at 327.66 215.9 0)
+			(at 327.66 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22459,7 +22628,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 350.52 228.6 0)
+			(at 350.52 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22470,7 +22639,7 @@
 			)
 		)
 		(property "MPN" "9774060151R"
-			(at 336.55 217.17 0)
+			(at 336.55 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22480,7 +22649,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 350.52 233.68 0)
+			(at 350.52 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22491,7 +22660,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 350.52 236.22 0)
+			(at 350.52 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25678,6 +25847,123 @@
 			(project "dual-camera-to-gmsl-serializer-csi-adapter"
 				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R")
+		(at 327.66 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94477cd0-c24d-424f-9cb3-e3bd5dc9b5e4")
+		(property "Reference" "H6"
+			(at 336.55 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 350.52 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R"
+			(at 350.52 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf"
+			(at 350.52 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
+			(at 327.66 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 350.52 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774060151R"
+			(at 336.55 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 350.52 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 350.52 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "726c5937-eb1b-485a-a44d-3938e42af45f")
+		)
+		(instances
+			(project "dual-camera-to-gmsl-serializer-csi-adapter"
+				(path "/cf1ce08b-3792-4258-a49b-b5b867cae6f7"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -29570,7 +29856,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R")
-		(at 327.66 234.95 0)
+		(at 327.66 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29579,7 +29865,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc814afb-81c5-41f1-a672-bd7bc88e49e0")
 		(property "Reference" "H4"
-			(at 336.55 233.68 0)
+			(at 336.55 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29589,7 +29875,7 @@
 			)
 		)
 		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
-			(at 350.52 240.03 0)
+			(at 350.52 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29600,7 +29886,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R"
-			(at 350.52 242.57 0)
+			(at 350.52 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29611,7 +29897,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf"
-			(at 350.52 245.11 0)
+			(at 350.52 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29622,7 +29908,7 @@
 			)
 		)
 		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
-			(at 327.66 234.95 0)
+			(at 327.66 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29631,7 +29917,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 350.52 247.65 0)
+			(at 350.52 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29642,7 +29928,7 @@
 			)
 		)
 		(property "MPN" "9774060151R"
-			(at 336.55 236.22 0)
+			(at 336.55 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29652,7 +29938,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 350.52 252.73 0)
+			(at 350.52 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29663,7 +29949,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 350.52 255.27 0)
+			(at 350.52 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33252,7 +33538,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 326.39 237.49 0)
+		(at 326.39 246.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33261,7 +33547,7 @@
 		(dnp no)
 		(uuid "f13baa2f-9a3b-4562-9708-c1649b39c1b8")
 		(property "Reference" "#PWR025"
-			(at 317.5 240.03 0)
+			(at 317.5 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33272,7 +33558,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 324.358 241.808 0)
+			(at 324.358 250.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33282,7 +33568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 317.5 245.11 0)
+			(at 317.5 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33293,7 +33579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 317.5 250.19 0)
+			(at 317.5 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33304,7 +33590,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 326.39 237.49 0)
+			(at 326.39 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33313,7 +33599,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 317.5 245.11 0)
+			(at 317.5 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33324,7 +33610,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 317.5 247.65 0)
+			(at 317.5 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34413,7 +34699,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R")
-		(at 327.66 222.25 0)
+		(at 327.66 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34422,7 +34708,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd6455ce-dd82-47d9-85d8-68c75d16e2ce")
 		(property "Reference" "H2"
-			(at 336.55 220.98 0)
+			(at 336.55 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34432,7 +34718,7 @@
 			)
 		)
 		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
-			(at 350.52 227.33 0)
+			(at 350.52 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34443,7 +34729,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R"
-			(at 350.52 229.87 0)
+			(at 350.52 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34454,7 +34740,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf"
-			(at 350.52 232.41 0)
+			(at 350.52 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34465,7 +34751,7 @@
 			)
 		)
 		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
-			(at 327.66 222.25 0)
+			(at 327.66 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34474,7 +34760,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 350.52 234.95 0)
+			(at 350.52 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34485,7 +34771,7 @@
 			)
 		)
 		(property "MPN" "9774060151R"
-			(at 336.55 223.52 0)
+			(at 336.55 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34495,7 +34781,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 350.52 240.03 0)
+			(at 350.52 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34506,7 +34792,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 350.52 242.57 0)
+			(at 350.52 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
