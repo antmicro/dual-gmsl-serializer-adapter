@@ -474,6 +474,23 @@
       {
         "bus_width": 12,
         "clearance": 0.125,
+        "diff_pair_gap": 0.152,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.152,
+        "line_style": 0,
+        "microvia_diameter": 0.6,
+        "microvia_drill": 0.3,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.125,
@@ -515,6 +532,18 @@
       {
         "netclass": "Z100_outer",
         "pattern": "*CSI*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*5V*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*3V3_*"
       }
     ]
   },
