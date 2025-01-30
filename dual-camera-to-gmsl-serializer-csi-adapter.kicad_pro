@@ -495,7 +495,7 @@
         "line_style": 0,
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
-        "name": "90_outer",
+        "name": "90Ohm-diff_CSI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.152,
@@ -511,7 +511,7 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "90_outer",
+        "netclass": "90Ohm-diff_CSI",
         "pattern": "*CSI*"
       }
     ]
