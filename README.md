@@ -2,7 +2,7 @@
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
-![](./assets/previews/orthoT.png)
+![](./assets/previews/orthoB.png)
 
 ## Overview
 
