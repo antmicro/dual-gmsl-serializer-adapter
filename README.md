@@ -1,6 +1,6 @@
 # Dual Camera to GMSL Serializer CSI Adapter
 
-Copyright (c) 2024 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
 ![](./assets/previews/orthoT.png)
 
