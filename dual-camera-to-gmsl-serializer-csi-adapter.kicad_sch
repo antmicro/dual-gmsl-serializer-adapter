@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Dual Camera to GMSL Serializer CSI Adapter")
-		(date "2024-12-18")
+		(date "2025-02-18")
 		(rev "1.1.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
